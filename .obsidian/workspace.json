@@ -11,14 +11,14 @@
             "id": "78315221a0ca2dae",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "Computer Orgnization/Lecture 2 - Computer Evolution and Performance.md",
-                "mode": "source",
-                "source": false
+                "aFile": ".obsidian/plugins/obsidian-git/data.json",
+                "bFile": ".obsidian/plugins/obsidian-git/data.json",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Lecture 2 - Computer Evolution and Performance"
+              "icon": "diff",
+              "title": "Diff: data.json  (Working Tree)"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "38085d8cd672b1c7",
@@ -113,12 +114,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Orgnization/Lecture 2 - Computer Evolution and Performance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Lecture 2 - Computer Evolution and Performance"
+              "title": "Outgoing links"
             }
           },
           {
@@ -156,13 +156,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Orgnization/Lecture 2 - Computer Evolution and Performance.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Lecture 2 - Computer Evolution and Performance"
+              "title": "Outline"
             }
           },
           {
@@ -176,7 +175,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -196,12 +195,14 @@
   },
   "active": "78315221a0ca2dae",
   "lastOpenFiles": [
-    "Untitled.canvas",
     "Computer Orgnization/Lecture 2 - Computer Evolution and Performance.md",
+    "Database",
+    "Networks",
+    "Untitled.canvas",
     "Computer Orgnization/Sheets content.md",
     "README.md",
     "Computer Orgnization/Lecture 3 - A Top-Level View of Computer Function and Interconnection.md",
-    "Untitled",
+    "Software Engineering",
     "AI/lecture_05_part2.md",
     "AI/Lecture 08 - Artificial Neural Networks.md",
     "AI/Lecture 6 - knowledge_representation.md",
