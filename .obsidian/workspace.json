@@ -13,32 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Engineering/Lectures/Lecture 06 - Architectural Design in Software Engineering.md",
+                "file": "Software Engineering/notes/Collective Ownership - XP Practice.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 06 - Architectural Design in Software Engineering"
-            }
-          }
-        ]
-      },
-      {
-        "id": "dbee6907774e63cb",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "c576ad1e31c0130b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Software Engineering/notes/Architectural Representations.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Architectural Representations"
+              "title": "Collective Ownership - XP Practice"
             }
           }
         ]
@@ -134,12 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Engineering/Lectures/Lecture 06 - Architectural Design in Software Engineering.md",
+                "file": "Software Engineering/notes/Collective Ownership - XP Practice.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Lecture 06 - Architectural Design in Software Engineering"
+              "title": "Outgoing links from Collective Ownership - XP Practice"
             }
           },
           {
@@ -177,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software Engineering/Lectures/Lecture 06 - Architectural Design in Software Engineering.md",
+                "file": "Software Engineering/notes/Collective Ownership - XP Practice.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Lecture 06 - Architectural Design in Software Engineering"
+              "title": "Outline of Collective Ownership - XP Practice"
             }
           },
           {
@@ -218,8 +198,10 @@
   },
   "active": "78315221a0ca2dae",
   "lastOpenFiles": [
-    "Software Engineering/notes/Architectural Representations.md",
+    "Software Engineering/notes/islands of expertise.md",
+    "Software Engineering/notes/Collective Ownership - XP Practice.md",
     "Software Engineering/Lectures/Lecture 06 - Architectural Design in Software Engineering.md",
+    "Software Engineering/notes/Architectural Representations.md",
     "Software Engineering/notes/architectural views.md",
     "Software Engineering/notes/fine-grained.md",
     "Software Engineering/notes",
