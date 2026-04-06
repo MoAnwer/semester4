@@ -1,6 +1,10 @@
-
->[!CALLOUT|outline] Time
-
+---
+banner: pixel-banner-images/ar.jpg
+banner-radius: 5
+tags:
+  - "#sheets"
+  - software
+---
 ## Introduction to Architectural Design
 
 Architectural design is a crucial stage in software engineering that focuses on organizing the overall structure of a software system. It bridges the gap between requirements engineering and detailed design by identifying the main components of a system and their interrelationships. The output of this process is an architectural model, which outlines how the system is structured as a collection of communicating components.

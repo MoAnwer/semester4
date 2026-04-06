@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Software Engineering/Lectures/Lecture 06 - Architectural Design in Software Engineering.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -192,11 +192,15 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian-kanban:Create new board": false,
+      "pexels-banner:🚩 Pixel Banner Menu": false
     }
   },
   "active": "78315221a0ca2dae",
   "lastOpenFiles": [
+    "pixel-banner-images/ar.jpg",
+    "pixel-banner-images",
     "Software Engineering/notes/External Regulation.md",
     "Software Engineering/notes/Loss of implicit knowledge.md",
     "Software Engineering/notes/Time-based contracts.md",
