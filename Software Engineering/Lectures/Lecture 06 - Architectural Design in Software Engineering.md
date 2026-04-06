@@ -17,7 +17,7 @@ While agile processes emphasize iterative development, establishing an overall s
 - **System Analysis:** Enables the analysis of whether the system can meet its non-functional requirements.
 - **Large-Scale Reuse:** The architecture itself can be reused across multiple systems, or product-line architectures can be developed.
 
-### Architectural Representations
+### [[Architectural Representations]]
 
 - **Block Diagrams:** Simple, informal diagrams showing entities and relationships are common but can lack semantic richness, failing to specify relationship types or entity properties.
 - **Architectural Models:** The required level of semantic detail in models depends on their intended use, whether for discussion or complete documentation.
@@ -48,13 +48,13 @@ Systems within the same domain often share similar architectures reflecting doma
 - **Security:** Employ a layered architecture with critical assets placed in inner layers.
 - **Safety:** Isolate safety-critical features within a small number of subsystems.
 - **Availability:** Incorporate redundant components and fault-tolerance mechanisms.
-- **Maintainability:** Utilize fine-grained, replaceable components.
+- **Maintainability:** Utilize [[fine-grained]], replaceable components.
 
 ## Architectural Views
 
 Architectural models typically present only one perspective of a system. To fully describe and document an architecture, multiple views are often necessary, offering different insights into the system's structure.
 
-Common architectural views include:
+Common [[architectural views]] include:
 
 - **Logical View:** Depicts the key abstractions in the system as objects or classes.
 - **Process View:** Illustrates how the system is composed of interacting processes at runtime.
