@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Engineering/notes/Loss of implicit knowledge.md",
+                "file": "Software Engineering/Lectures/Lecture 06 - Architectural Design in Software Engineering.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Loss of implicit knowledge"
+              "title": "Lecture 06 - Architectural Design in Software Engineering"
             }
           }
         ]
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Engineering/notes/Loss of implicit knowledge.md",
+                "file": "Software Engineering/Lectures/Lecture 06 - Architectural Design in Software Engineering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Loss of implicit knowledge"
+              "title": "Outgoing links from Lecture 06 - Architectural Design in Software Engineering"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software Engineering/notes/Loss of implicit knowledge.md",
+                "file": "Software Engineering/Lectures/Lecture 06 - Architectural Design in Software Engineering.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Loss of implicit knowledge"
+              "title": "Outline of Lecture 06 - Architectural Design in Software Engineering"
             }
           },
           {
@@ -197,8 +197,9 @@
   },
   "active": "78315221a0ca2dae",
   "lastOpenFiles": [
-    "Software Engineering/notes/Time-based contracts.md",
+    "Software Engineering/notes/External Regulation.md",
     "Software Engineering/notes/Loss of implicit knowledge.md",
+    "Software Engineering/notes/Time-based contracts.md",
     "Software Engineering/notes/Egoless Programming.md",
     "Software Engineering/notes/Sustainable Pace.md",
     "Software Engineering/notes/Continuous Integration - XP Practice.md",
