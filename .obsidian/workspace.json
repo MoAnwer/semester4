@@ -11,14 +11,14 @@
             "id": "78315221a0ca2dae",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/plugins/obsidian-git/data.json",
-                "bFile": ".obsidian/plugins/obsidian-git/data.json",
-                "aRef": ""
+                "file": "Software Engineering/Lecture 06 - Architectural Design in Software Engineering.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: data.json  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "Lecture 06 - Architectural Design in Software Engineering"
             }
           }
         ]
@@ -114,11 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Software Engineering/Lecture 06 - Architectural Design in Software Engineering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Lecture 06 - Architectural Design in Software Engineering"
             }
           },
           {
@@ -156,12 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Software Engineering/Lecture 06 - Architectural Design in Software Engineering.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Lecture 06 - Architectural Design in Software Engineering"
             }
           },
           {
@@ -195,6 +197,8 @@
   },
   "active": "78315221a0ca2dae",
   "lastOpenFiles": [
+    "Networks/CH 11.md",
+    "Software Engineering/Lecture 06 - Architectural Design in Software Engineering.md",
     "Computer Orgnization/Lecture 2 - Computer Evolution and Performance.md",
     "Database",
     "Networks",
