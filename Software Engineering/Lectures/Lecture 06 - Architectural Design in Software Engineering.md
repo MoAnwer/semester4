@@ -1,5 +1,5 @@
 ---
-banner: pixel-banner-images/ar.jpg
+banner: "pixel-banner-images/ar.jpg"
 banner-radius: 5
 tags:
   - "#sheets"
