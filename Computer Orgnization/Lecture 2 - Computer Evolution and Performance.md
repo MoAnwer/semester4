@@ -1,3 +1,9 @@
+---
+banner: pixel-banner-images/Modern high-rise urban streetscape-1.jpg
+tags:
+  - coa
+  - sheets
+---
 ## History of Computers by Generation
 
 ### First Generation: Vacuum Tubes (1946-1957)

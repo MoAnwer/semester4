@@ -1,7 +1,11 @@
 ---
 tags:
-  - ai
   - sheets
+  - coa
+banner: pixel-banner-images/Modern high-rise urban streetscape-1.jpg
+banner-x: 44
+banner-y: 63
+banner-fade: -15
 ---
 
 ## Computer Components and Function
