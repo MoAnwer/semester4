@@ -13,12 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tasks/2026-04-08.md",
+                "file": "Tasks/2026-04-09.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-04-08"
+              "title": "2026-04-09"
+            }
+          },
+          {
+            "id": "da28dbf977d35dd4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Software Engineering/notes/Mega-systems Sociotechnical systems.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Mega-systems Sociotechnical systems"
             }
           }
         ]
@@ -78,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "38085d8cd672b1c7",
@@ -201,12 +216,21 @@
   },
   "active": "26b5b22e3bf1aaec",
   "lastOpenFiles": [
+    "Software Engineering/notes/Mega-systems Sociotechnical systems.md",
+    "Software Engineering/notes/Verifiability in Requirement validation.md",
+    "Software Engineering/notes/Realism checks in Requirements validation.md",
+    "Software Engineering/notes/Add System Evolution into SRS.md",
+    "Software Engineering/notes/Structured language specifications.md",
+    "Tasks/2026-04-09.md",
+    "Software Engineering/notes/Requirements Elicitation.md",
+    "Software Engineering/notes/Information Requirements.md",
+    "pixel-banner-images/Organizational requirement.md",
+    "Tasks/2026-04-08.md",
     "Networks/CH 11.md",
     "Computer Orgnization/Sheets content.md",
     "Computer Orgnization/Lecture 2 - Computer Evolution and Performance.md",
     "Computer Orgnization/Lecture 3 - A Top-Level View of Computer Function and Interconnection.md",
     "pixel-banner-images/Modern high-rise urban streetscape-1.jpg",
-    "Tasks/2026-04-08.md",
     "Software Engineering/Ch4 Req Eng.pdf",
     "Software Engineering/Lectures/Lecture 06 - Architectural Design in Software Engineering.md",
     "Untitled Kanban.md",
@@ -230,16 +254,8 @@
     "Software Engineering/notes/Loss of implicit knowledge.md",
     "Software Engineering/notes/Time-based contracts.md",
     "Software Engineering/notes/Sustainable Pace.md",
-    "Software Engineering/notes/Continuous Integration - XP Practice.md",
-    "Software Engineering/notes/Collective Ownership - XP Practice.md",
-    "Software Engineering/notes/islands of expertise.md",
-    "Software Engineering/notes/Architectural Representations.md",
-    "Software Engineering/notes/fine-grained.md",
     "Software Engineering/notes",
     "Software Engineering/Lectures",
-    "Database",
-    "README.md",
-    "AI/lecture_05_part2.md",
-    "AI/Lecture 08 - Artificial Neural Networks.md"
+    "Database"
   ]
 }
