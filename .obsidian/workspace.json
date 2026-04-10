@@ -11,10 +11,14 @@
             "id": "419cf286ef067478",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Tasks/2026-04-10.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-04-10"
             }
           }
         ]
@@ -197,6 +201,8 @@
   },
   "active": "419cf286ef067478",
   "lastOpenFiles": [
+    "Software Engineering/notes/Realism checks in Requirements validation.md",
+    "Software Engineering/notes/Probability of Failure on Demand (POFOD).md",
     "Software Engineering/notes/Information Requirements.md",
     "Software Engineering/notes/Holistic Perspective.md",
     "Software Engineering/notes/fine-grained.md",
@@ -223,8 +229,6 @@
     "Software Engineering/notes/Verifiability in Requirement validation.md",
     "Software Engineering/notes/To develop dependable software.md",
     "Software Engineering/notes/Time-based contracts.md",
-    "Software Engineering/notes/Sustainable Pace.md",
-    "Software Engineering/notes/Structured language specifications.md",
     "Software Engineering/exam_prompts",
     "pixel-banner-images/Modern high-rise urban streetscape-1.jpg",
     "Untitled.base",
