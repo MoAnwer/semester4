@@ -11,14 +11,14 @@
             "id": "419cf286ef067478",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "Software Engineering/notes/Egoless Programming.md",
-                "bFile": "Software Engineering/notes/Egoless Programming.md",
-                "aRef": ""
+                "file": "Software Engineering/notes/Error Tolerance.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: Egoless Programming  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "Error Tolerance"
             }
           }
         ]
