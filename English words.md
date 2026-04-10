@@ -5,3 +5,4 @@
 | argue      | يجادل   |
 | strength   | قوة     |
 | contention | خلاف    |
+| sight      | رؤية    |
