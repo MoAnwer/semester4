@@ -8,27 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "03961f9f659e9280",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
             "id": "419cf286ef067478",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "Software Plan.md",
-                "mode": "source",
-                "source": false
+                "aFile": "Software Engineering/notes/Egoless Programming.md",
+                "bFile": "Software Engineering/notes/Egoless Programming.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Software Plan"
+              "icon": "diff",
+              "title": "Diff: Egoless Programming  (Working Tree)"
             }
           }
         ]
@@ -209,11 +199,19 @@
       "pexels-banner:🚩 Pixel Banner Menu": false
     }
   },
-  "active": "03961f9f659e9280",
+  "active": "419cf286ef067478",
   "lastOpenFiles": [
+    "Software Engineering/notes/Error Tolerance.md",
+    "Software Engineering/notes/Egoless Programming.md",
+    "Software Engineering/notes/Dubious long-term value.md",
+    "Software Engineering/notes/Diversity and dependability.md",
+    "Software Engineering/notes/Continuous Integration - XP Practice.md",
+    "Software Engineering/notes/Collective Ownership - XP Practice.md",
+    "Software Engineering/notes/architectural views.md",
+    "Software Engineering/notes/Mathematical or Formal Specifications in Requirements engineering.md",
+    "Software Plan.md",
     "Software Engineering/notes/Maintainability.md",
     "Tasks/2026-04-09.md",
-    "Software Plan.md",
     "English words.md",
     "Untitled.canvas",
     "Tasks/2026-04-10.md",
@@ -231,14 +229,6 @@
     "Software Engineering/notes/Relation between Dependability and Cost.md",
     "Software Engineering/notes/Realism checks in Requirements validation.md",
     "Software Engineering/notes/Probability of Failure on Demand (POFOD).md",
-    "Software Engineering/notes/Mega-systems Sociotechnical systems.md",
-    "Software Engineering/notes/Loss of implicit knowledge.md",
-    "Software Engineering/notes/islands of expertise.md",
-    "Software Engineering/notes/Information Requirements.md",
-    "Software Engineering/notes/Holistic Perspective.md",
-    "Software Engineering/notes/fine-grained.md",
-    "Software Engineering/notes/Fault-Error-Failure Model.md",
-    "Software Engineering/notes/External Regulation.md",
     "Software Engineering/exam_prompts",
     "pixel-banner-images/Modern high-rise urban streetscape-1.jpg",
     "Untitled.base",
