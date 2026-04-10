@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Engineering/notes/External Regulation.md",
+                "file": "Software Engineering/notes/Fault-Error-Failure Model.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "External Regulation"
+              "title": "Fault-Error-Failure Model"
             }
           }
         ]
@@ -201,6 +201,7 @@
   },
   "active": "419cf286ef067478",
   "lastOpenFiles": [
+    "Software Engineering/notes/External Regulation.md",
     "Software Engineering/notes/Error Tolerance.md",
     "Software Engineering/notes/Egoless Programming.md",
     "Software Engineering/notes/Dubious long-term value.md",
@@ -228,7 +229,6 @@
     "Software Engineering/notes/Requirements Elicitation.md",
     "Software Engineering/notes/Relation between Dependability and Cost.md",
     "Software Engineering/notes/Realism checks in Requirements validation.md",
-    "Software Engineering/notes/Probability of Failure on Demand (POFOD).md",
     "Software Engineering/exam_prompts",
     "pixel-banner-images/Modern high-rise urban streetscape-1.jpg",
     "Untitled.base",
