@@ -6,3 +6,4 @@
 | strength   | قوة     |
 | contention | خلاف    |
 | sight      | رؤية    |
+| fallen     | يسقط    |
