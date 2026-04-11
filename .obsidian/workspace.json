@@ -23,12 +23,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Plan.md",
+                "file": "My Dash.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Software Plan"
+              "title": "My Dash"
             }
           }
         ],
@@ -89,7 +89,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "38085d8cd672b1c7",
@@ -212,8 +213,9 @@
   },
   "active": "ca2bf2a2b1c9217b",
   "lastOpenFiles": [
-    "2026-04-11.md",
+    "pixel-banner-images/Cool-Desktop-HD-Wallpaper-free-download-1.jpg",
     "Software Plan.md",
+    "2026-04-11.md",
     "Tasks/2026-04-07.md",
     "Tasks/2026-04-08.md",
     "Tasks/2026-04-10.md",
@@ -239,7 +241,6 @@
     "Software Engineering/notes/Reports",
     "Software Engineering/exam_prompts/Prompt 1.md",
     "Software Engineering/notes/Realism checks in Requirements validation.md",
-    "Software Engineering/notes/Probability of Failure on Demand (POFOD).md",
     "Untitled.canvas",
     "Software Engineering/Ch4 Req Eng.pdf",
     "Software Engineering/exam_prompts",
