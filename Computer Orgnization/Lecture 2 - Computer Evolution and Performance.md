@@ -3,6 +3,7 @@ banner: pixel-banner-images/Modern high-rise urban streetscape-1.jpg
 tags:
   - coa
   - sheets
+banner-repeat: false
 ---
 ## History of Computers by Generation
 
