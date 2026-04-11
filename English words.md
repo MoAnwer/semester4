@@ -7,3 +7,4 @@
 | contention | خلاف    |
 | sight      | رؤية    |
 | fallen     | يسقط    |
+| bypasses   | يتجاوز  |
