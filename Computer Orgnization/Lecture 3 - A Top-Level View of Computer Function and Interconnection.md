@@ -2,7 +2,7 @@
 tags:
   - sheets
   - coa
-banner: pixel-banner-images/Modern high-rise urban streetscape-1.jpg
+banner: "pixel-banner-images/Modern high-rise urban streetscape-1.jpg"
 banner-x: 44
 banner-y: 63
 banner-fade: -15
@@ -10,229 +10,212 @@ banner-fade: -15
 
 ## Computer Components and Function
 
-### Von Neumann Architecture
+# Computer Function and Interconnection
 
-The von Neumann architecture, developed by John von Neumann, is the foundation for contemporary computer designs. It is characterized by three key concepts:
+## Introduction to Computer Architecture
 
-- **Single Memory:** Data and instructions are stored in a single, shared read-write memory.
-- **Addressable Memory:** The contents of memory are addressable by location, irrespective of the data type stored.
-- **Sequential Execution:** Operations are executed sequentially, one instruction after another, unless explicitly altered by control flow mechanisms.
+The contemporary computer design is largely based on the **von Neumann architecture**, conceptualized by John von Neumann. Its core principles are:
 
-### Hardware vs. Software Approaches
+- **Single Memory:** Data and instructions are stored in a single read-write memory.
+- **Addressable Memory:** Memory contents are addressable by location, regardless of the data type.
+- **Sequential Execution:** Instructions are executed sequentially unless explicitly modified.
 
-- **Hardware Programming:** In this approach, the desired configuration of components is physically wired. This results in a "hardwired program" where the sequence of operations is fixed by the hardware connections.
-- **Software Programming:** This approach uses a general-purpose set of hardware components (CPU, memory, I/O) and a program (a sequence of instruction codes) that dictates the operations. An instruction interpreter within the CPU decodes these codes and generates control signals to direct the hardware.
+### Hardware vs. Software Approaches to Programming
 
-### Top-Level Computer Components
+- **Hardware Programming (Hardwired Program):** This involves physically connecting components in a specific configuration to perform a sequence of arithmetic and logic functions. This is inflexible as changes require rewiring.
+- **Software Programming:** This uses instruction codes interpreted by a general-purpose arithmetic and logic unit. Control signals are generated based on these instructions, making the system programmable and adaptable.
 
-A high-level view of a computer reveals several key components connected by a system bus:
+## Computer Components: Top-Level View
 
-- **Central Processing Unit (CPU):** The brain of the computer, responsible for executing instructions. Key internal registers include:
-    - Program Counter (PC): Holds the address of the next instruction to be fetched.
-    - Instruction Register (IR): Holds the instruction currently being executed.
-    - Accumulator (AC): A general-purpose register for temporary data storage.
-- **Memory:** Stores both data and instructions. Key components include:
-    - Memory Address Register (MAR): Holds the address of the memory location to be accessed.
-    - Memory Buffer Register (MBR): Temporarily holds data being read from or written to memory.
-- **I/O Module:** Manages communication with external devices. Key components include:
-    - Input/Output Address Register (I/O AR): Holds the address of the I/O device.
-    - Input/Output Buffer Register (I/O BR): Temporarily holds data being transferred to or from an I/O device.
-- **System Bus:** The communication pathway connecting the CPU, Memory, and I/O modules. It consists of:
-    - Data Bus: Carries data between modules.
-    - Address Bus: Specifies the source or destination of data.
-    - Control Bus: Carries control and timing signals.
+A computer system consists of several key modules interconnected by a system bus:
+
+- **Central Processing Unit (CPU):** The brain of the computer, responsible for fetching, decoding, and executing instructions. Key internal registers include:
+    - **Program Counter (PC):** Holds the address of the next instruction to be fetched.
+    - **Instruction Register (IR):** Holds the instruction currently being executed.
+    - **Memory Address Register (MAR):** Holds the address of the memory location to be accessed.
+    - **Memory Buffer Register (MBR):** Holds the data being transferred to or from memory.
+    - **Accumulator (AC):** A general-purpose register for temporary storage during computations.
+- **Main Memory:** Stores both instructions and data. It is organized into addressable locations.
+- **I/O Modules:** Handle communication with external devices. They have their own registers, such as:
+    - **Input/Output Address Register (I/O AR):** Holds the address of an I/O device.
+    - **Input/Output Buffer Register (I/O BR):** Holds data being transferred to or from an I/O device.
+- **System Bus:** Connects the CPU, Main Memory, and I/O Modules, facilitating data, address, and control signal transfers.
 
 ## The Instruction Cycle
 
-### Basic Instruction Cycle
+The fundamental operation of a computer is the **instruction cycle**, which consists of two main phases:
 
-The fundamental operation of a CPU is the instruction cycle, which consists of two main phases:
+1. **Fetch Cycle:**
+    - The Program Counter (PC) holds the address of the next instruction.
+    - The CPU fetches the instruction from memory at the address specified by the PC.
+    - The PC is incremented to point to the next instruction in sequence.
+    - The fetched instruction is loaded into the Instruction Register (IR).
+2. **Execute Cycle:**
+    - The CPU decodes the instruction in the IR.
+    - The CPU performs the action specified by the instruction (e.g., arithmetic operation, data transfer, control flow change).
 
-1. **Fetch Cycle:** The CPU retrieves an instruction from memory.
-2. **Execute Cycle:** The CPU decodes and performs the action specified by the instruction.
-
-This cycle repeats until the `HALT` instruction is encountered.
-
-### Fetch Cycle Details
-
-During the fetch cycle:
-
-1. The address of the next instruction is fetched from the Program Counter (PC).
-2. The PC is incremented to point to the next instruction in sequence.
-3. The instruction at the address specified by the PC is loaded into the Instruction Register (IR).
-4. The CPU interprets the instruction.
+This cycle repeats until the program is halted.
 
 ### Instruction Cycle State Diagram
 
-The instruction cycle can be visualized as a state diagram, progressing through states like:
+The instruction cycle can be further broken down into states:
 
-- Instruction Fetch
-- Instruction Operand Address Calculation
-- Instruction Operand Fetch
-- Instruction Operation
-- Instruction complete (fetch next instruction)
+- Instruction fetch
+- Operand fetch (if the instruction requires data from memory)
+- Instruction operation (performing the actual computation or data manipulation)
+- Operand store (writing results back to memory)
 
-### Example of Program Execution (Hexadecimal)
+### Example of Program Execution
 
-Let's trace a simple sequence of operations:
+Let's trace a simple program execution using hypothetical machine characteristics:
+
+**Hypothetical Machine Characteristics:**
+
+- **Instruction Format:** Opcode (4 bits) and Address (16 bits).
+- **Opcodes:**
+    - `0001`: Load AC from Memory
+    - `0010`: Store AC to Memory
+    - `0101`: Add to AC from Memory
+- **Registers:** PC, IR, AC.
+
+**Example Program:** Load a value from memory address 940 into the Accumulator (AC), then add a value from memory address 941 to the AC.
 
 **Initial State:**
 
 - Memory:
-    - Location 300: `1940` (Load AC from Memory)
-    - Location 301: `5941` (Add to AC from Memory)
-    - Location 302: `2941` (Store AC to Memory)
-    - Location 940: `0003` (Data)
-    - Location 941: `0005` (Data)
+    - Location 300: `1940` (Instruction: Load AC from 940)
+    - Location 301: `5941` (Instruction: Add to AC from 941)
+    - Location 302: `2940` (Instruction: Store AC to 940)
+    - Location 940: `0003` (Data value)
+    - Location 941: `0005` (Data value)
 - CPU Registers:
     - PC: `300`
-    - AC: (empty)
-    - IR: (empty)
 
-**Step 1: Fetch Instruction (at PC=300)**
+**Execution Steps:**
 
-- PC is `300`.
-- Instruction `1940` is fetched from memory location `300` and loaded into IR.
-- PC is incremented to `301`.
-
-**Step 2: Execute Instruction (IR = 1940 - Load AC)**
-
-- The instruction `1940` means "Load AC from Memory address `940`".
-- The value `0003` from memory location `940` is loaded into AC.
-
-**Step 3: Fetch Instruction (at PC=301)**
-
-- PC is `301`.
-- Instruction `5941` is fetched from memory location `301` and loaded into IR.
-- PC is incremented to `302`.
-
-**Step 4: Execute Instruction (IR = 5941 - Add to AC)**
-
-- The instruction `5941` means "Add to AC from Memory address `941`".
-- The value `0005` from memory location `941` is added to the current value in AC (`0003`).
-- AC becomes `0008`.
-
-**Step 5: Fetch Instruction (at PC=302)**
-
-- PC is `302`.
-- Instruction `2941` is fetched from memory location `302` and loaded into IR.
-- PC is incremented to `303`.
-
-**Step 6: Execute Instruction (IR = 2941 - Store AC)**
-
-- The instruction `2941` means "Store AC to Memory address `941`".
-- The value in AC (`0008`) is written to memory location `941`.
-
-This example demonstrates the fetch-decode-execute cycle for a simple program involving loading data, arithmetic, and storing results.
-
-### Instruction Cycle State Diagram with Interrupts
-
-The instruction cycle can be extended to include interrupt handling:
-
-- Instruction Fetch
-- Instruction Operand Address Calculation
-- Instruction Operand Fetch
-- Instruction Operation
-- Interrupt Check (if enabled)
-- Instruction Complete (fetch next instruction, or process interrupt)
+1. **Fetch Instruction 1:**
+    - PC (`300`) points to memory location 300.
+    - Instruction `1940` is fetched.
+    - PC is incremented to `301`.
+    - IR holds `1940`.
+2. **Execute Instruction 1 (Load AC from 940):**
+    - Opcode `0001` (Load AC) is recognized.
+    - Address `940` is used.
+    - The value `0003` from memory location 940 is loaded into AC.
+    - CPU Registers: PC=`301`, IR=`1940`, AC=`0003`.
+3. **Fetch Instruction 2:**
+    - PC (`301`) points to memory location 301.
+    - Instruction `5941` is fetched.
+    - PC is incremented to `302`.
+    - IR holds `5941`.
+4. **Execute Instruction 2 (Add to AC from 941):**
+    - Opcode `0101` (Add to AC) is recognized.
+    - Address `941` is used.
+    - The value `0005` from memory location 941 is added to AC.
+    - AC becomes `0003 + 0005 = 0008`.
+    - CPU Registers: PC=`302`, IR=`5941`, AC=`0008`.
+5. **Fetch Instruction 3:**
+    - PC (`302`) points to memory location 302.
+    - Instruction `2940` is fetched.
+    - PC is incremented to `303`.
+    - IR holds `2940`.
+6. **Execute Instruction 3 (Store AC to 940):**
+    - Opcode `0010` (Store AC) is recognized.
+    - Address `940` is used.
+    - The value in AC (`0008`) is stored into memory location 940.
+    - Memory Location 940 now contains `0008`.
+    - CPU Registers: PC=`303`, IR=`2940`, AC=`0008`.
+7. **Fetch Next Instruction:**
+    - PC (`303`) would now fetch the next instruction, continuing the cycle.
 
 ## Interrupts
 
-### Classes of Interrupts
+Interrupts are signals that alter the normal sequential flow of program execution, typically indicating an event that requires immediate attention.
 
-Interrupts are signals that alter the normal flow of program execution. They can be categorized as:
+### Classes of Interrupts:
 
-- **Program Interrupts:** Generated by conditions during instruction execution (e.g., arithmetic overflow, division by zero, illegal instruction).
-- **Timer Interrupts:** Generated by an internal processor timer, used for periodic operating system tasks.
-- **I/O Interrupts:** Generated by an I/O controller to signal operation completion, request service, or report errors.
+- **Program Interrupts:** Generated by conditions arising from instruction execution (e.g., arithmetic overflow, division by zero, illegal instruction).
+- **Timer Interrupts:** Generated by an internal processor timer, allowing the OS to perform periodic tasks.
+- **I/O Interrupts:** Generated by an I/O controller to signal completion, request service, or report errors.
 - **Hardware Failure Interrupts:** Generated by hardware malfunctions (e.g., power failure, memory parity error).
 
 ### Program Flow Control with Interrupts
 
-Interrupts allow for more efficient use of the processor, especially during I/O operations.
+Without interrupts, a program runs sequentially. With interrupts:
 
-- **Without Interrupts:** If a program performs an I/O operation, the processor might have to wait idly until the I/O is complete.
-- **With Interrupts:** While an I/O operation is in progress, the processor can switch to executing another program or task. An interrupt signal from the I/O device alerts the processor when the I/O is done, allowing it to resume or switch back.
-
-### Transfer of Control via Interrupts
-
-When an interrupt occurs:
-
-1. The current state of the executing program is saved (e.g., PC, register values).
-2. Control is transferred to a special program called an interrupt handler (or interrupt service routine).
-3. The interrupt handler performs the necessary actions to service the interrupt.
-4. Once the interrupt is handled, the saved state of the interrupted program is restored, and execution resumes from where it left off.
+- A user program can be interrupted by an event.
+- Control is transferred to an **Interrupt Handler** (a special routine).
+- After the interrupt is processed, control may return to the interrupted program.
+- This allows the processor to handle I/O operations concurrently with program execution, improving efficiency.
 
 ### Instruction Cycle With Interrupts
 
-The instruction cycle is modified to include an "Interrupt Cycle":
+The instruction cycle is modified to include an **Interrupt Cycle**:
 
-1. **Fetch Cycle:** Fetch instruction.
-2. **Execute Cycle:** Execute instruction.
-3. **Interrupt Check:** After executing an instruction, the processor checks if any interrupts are pending and enabled.
-4. **Interrupt Cycle:** If an interrupt is detected and enabled, the processor saves the current state, loads the address of the interrupt handler, and begins executing it.
-5. The cycle then returns to the Fetch cycle to fetch the next instruction (either from the interrupted program or the interrupt handler).
+- **Fetch Cycle:** Fetches the next instruction.
+- **Execute Cycle:** Executes the instruction.
+- **Interrupt Check:** After executing an instruction, the processor checks if any interrupts are pending.
+    - If interrupts are **disabled**, the cycle continues to fetch the next instruction.
+    - If interrupts are **enabled** and an interrupt is pending, the **Interrupt Cycle** is initiated.
+- **Interrupt Cycle:**
+    - Control is transferred to the interrupt handler.
+    - The current state of the interrupted program is saved.
+    - The interrupt handler is executed.
+    - The saved state is restored, and control returns to the interrupted program.
 
-### Program Timing with Interrupts
+### Transfer of Control via Interrupts
 
-- **Short I/O Wait:** Without interrupts, the processor might spend significant time waiting for I/O. With interrupts, the processor can perform other tasks during the I/O wait, improving overall utilization.
-- **Long I/O Wait:** Similar to short waits, interrupts allow the processor to be productive during prolonged I/O operations.
+When an interrupt occurs, the processor:
 
-### Transfer of Control with Multiple Interrupts
+1. Saves the current PC value.
+2. Loads the PC with the starting address of the interrupt handler.
+3. Executes the interrupt handler.
+4. Restores the saved PC value to resume the interrupted program.
 
-Computers can handle multiple interrupts.
+### Multiple Interrupts and Nesting
 
-- **Sequential Interrupt Processing:** Interrupts are handled one after another in the order they are recognized.
-- **Nested Interrupt Processing:** An interrupt handler for a higher-priority interrupt can be interrupted by an even higher-priority interrupt. The system saves the state of the current handler and switches to the new one. Once the highest-priority interrupt is resolved, the system returns to lower-priority handlers.
+- **Sequential Interrupt Processing:** Interrupts are handled one after another.
+- **Nested Interrupt Processing:** A higher-priority interrupt can interrupt a lower-priority interrupt handler. This requires saving the state of the interrupted handler as well.
 
-## I/O Function
+## Input/Output (I/O) Functions
 
-### I/O Module Interaction
+I/O modules allow the CPU to communicate with external devices. Key aspects include:
 
-I/O modules can interact with the processor in several ways:
+- **Data Exchange:** I/O modules can exchange data directly with the processor or, in some cases, directly with memory.
+- **Device Identification:** The processor identifies specific devices through I/O module addresses.
+- **I/O Instructions:** The processor uses special I/O instructions (rather than memory-referencing instructions) to interact with I/O devices.
+- **Direct Memory Access (DMA):** A powerful I/O technique where an I/O module is granted authority to transfer data directly to or from main memory without continuous CPU intervention. This significantly relieves the processor of I/O responsibilities.
 
-- **Processor-Controlled I/O:** The processor issues I/O instructions (like `IN` or `OUT`) to read data from or write data to specific I/O devices. The processor identifies the device using an address.
-- **Direct Memory Access (DMA):** In DMA, an I/O module is granted permission to transfer data directly to or from main memory without continuous processor intervention. The processor initiates the transfer, and the I/O module handles the reading/writing of blocks of data from/to memory. This frees up the processor for other tasks.
+## Interconnection Structures: The Bus
 
-## Interconnection Structures
+The **bus** is the primary interconnection mechanism in a computer system, providing communication pathways among the CPU, memory, and I/O modules.
 
-### Computer Modules
+### Types of Buses:
 
-A computer system consists of several modules:
+1. **Data Bus:**
+    - Carries data between modules.
+    - Its **width** (number of lines, e.g., 32, 64, 128 bits) determines how many bits can be transferred simultaneously, significantly impacting performance.
+2. **Address Bus:**
+    - Specifies the source or destination of data on the data bus.
+    - Its **width** determines the maximum addressable memory capacity.
+    - Used to select a particular module and then a specific location (memory or I/O port) within that module.
+3. **Control Bus:**
+    - Manages access to and use of the data and address lines.
+    - Carries **command signals** (specifying operations like read, write) and **timing signals** (indicating data validity).
 
-- **CPU:** Central Processing Unit.
-- **Memory:** Main memory for storing data and instructions.
-- **I/O Modules:** Interface with peripheral devices.
-- **System Bus:** Connects these modules.
+### Bus Operation:
 
-### Bus Interconnection
+- Modules share the data and address lines, necessitating control mechanisms.
+- The processor places an address on the address bus and a command on the control bus.
+- The addressed module responds via the data bus.
 
-A bus is a set of wires that acts as a shared communication pathway between system modules. It typically comprises three parts:
+### Computer Modules (General Structure):
 
-- **Data Bus:** Transfers data between modules. Its width (number of lines) determines how many bits can be transferred simultaneously, impacting performance.
-- **Address Bus:** Specifies the source or destination of data. Its width determines the maximum addressable memory capacity.
-- **Control Bus:** Carries control and timing signals, managing bus access and operations. Examples include read/write signals, clock signals, and interrupt requests.
+A typical computer system comprises modules that interact via buses:
 
-### Bus Design Elements
-
-Key considerations in bus design include:
-
-- **Bus Width:** The number of data lines.
-- **Method of Arbitration:** How multiple devices share the bus (e.g., centralized or distributed control).
-- **Data Transfer Type:** Read, Write, Read-modify-write, Block transfers.
-- **Timing:**
-    - **Synchronous Bus:** Operations are synchronized by a clock signal. All devices operate in lockstep with the clock.
-    - **Asynchronous Bus:** Operations are controlled by signals exchanged between devices, allowing for devices with different speeds to communicate effectively without a global clock dictating all timings.
-
-### Point-to-Point Interconnect
-
-Modern high-performance systems often use point-to-point interconnects instead of traditional shared buses. These provide dedicated communication paths between components.
-
-- **QuickPath Interconnect (QPI):** An Intel technology that uses multiple direct, pairwise connections between components (CPU cores, memory controllers, I/O hubs). It features a layered protocol architecture for packetized data transfer, including routing and link-layer functions for flow and error control.
-- **PCI Express (PCIe):** A popular high-bandwidth, point-to-point serial interconnect designed to replace older bus architectures. It offers high capacity and supports time-dependent data streams. PCIe uses a layered protocol (Transaction, Data Link, Physical) and operates with a multilane distribution for increased bandwidth.
-
-### PCIe Protocol Layers
-
-- **Transaction Layer (TL):** Handles the creation of packets (Transaction Layer Packets - TLPs) for read/write requests and responses. It supports memory, I/O, configuration, and message address spaces. TLPs can be split transactions (request and completion packets) or posted transactions (no response expected).
-- **Data Link Layer (DLL):** Ensures reliable data transfer between directly connected devices. It adds error detection (CRC) and flow control mechanisms to TLPs, forming Data Link Layer Packets (DLLPs).
-- **Physical Layer (PL):** Handles the electrical signaling and encoding/decoding of data for transmission over the physical links (lanes). It uses techniques like 8b/10b or 128b/130b encoding to ensure clock recovery and data integrity.
+- **CPU:** Executes instructions.
+- **Memory:** Stores data and instructions.
+- **I/O Modules:** Interface with external devices, possessing internal data ports and external data ports.
+- **Internal Data Bus:** Connects CPU, Memory, and I/O modules.
+- **External Data Bus:** Connects to external I/O devices.
+- **Control and Interrupt Signals:** Manage communication flow and event notifications.
