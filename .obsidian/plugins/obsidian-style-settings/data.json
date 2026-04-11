@@ -1,0 +1,11 @@
+{
+  "Appearance-light@@card-layout-open-light": true,
+  "Appearance-light@@theme-light-style-select": "theme-light-background-adapt",
+  "Appearance-light@@accent-light": "#36CEA3",
+  "Appearance-light@@accent-color-override-light": true,
+  "Appearance-dark@@card-layout-open-dark": true,
+  "Appearance-dark@@theme-dark-style-select": "theme-dark-background-darker",
+  "Appearance-light@@color-red-rgb@@light": "#47B81E",
+  "Appearance-dark@@accent-color-override-dark": true,
+  "Appearance-dark@@color-red-rgb@@dark": "#1FBD5B"
+}
