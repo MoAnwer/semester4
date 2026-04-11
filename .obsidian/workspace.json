@@ -11,14 +11,14 @@
             "id": "839138ded2c78b96",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "Computer Orgnization/notes/Address bus width determine the  maximum memory capacity.md",
-                "bFile": "Computer Orgnization/notes/Address bus width determine the  maximum memory capacity.md",
-                "aRef": ""
+                "file": "Computer Orgnization/Lecture 3 - A Top-Level View of Computer Function and Interconnection.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: Address bus width determine the  maximum memory capacity  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "Lecture 3 - A Top-Level View of Computer Function and Interconnection"
             }
           }
         ]
@@ -199,7 +199,7 @@
       "pexels-banner:🚩 Pixel Banner Menu": false
     }
   },
-  "active": "53d69333c7b854eb",
+  "active": "839138ded2c78b96",
   "lastOpenFiles": [
     "Computer Orgnization/notes/Control Bus.md",
     "Computer Orgnization/notes/Address bus width determine the  maximum memory capacity.md",
