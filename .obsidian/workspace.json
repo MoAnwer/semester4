@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Orgnization/Lecture 3 - A Top-Level View of Computer Function and Interconnection.md",
+                "file": "Computer Orgnization/notes/Timing Signals.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 3 - A Top-Level View of Computer Function and Interconnection"
+              "title": "Timing Signals"
+            }
+          },
+          {
+            "id": "333761b125073c36",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "English words.md",
+                "bFile": "English words.md",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: English words  (Working Tree)"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -199,13 +214,15 @@
       "pexels-banner:🚩 Pixel Banner Menu": false
     }
   },
-  "active": "839138ded2c78b96",
+  "active": "333761b125073c36",
   "lastOpenFiles": [
+    "English words.md",
+    "Computer Orgnization/notes/Timing Signals.md",
+    "Computer Orgnization/Lecture 3 - A Top-Level View of Computer Function and Interconnection.md",
     "Computer Orgnization/notes/Control Bus.md",
     "Computer Orgnization/notes/Address bus width determine the  maximum memory capacity.md",
     "Computer Orgnization/notes/Benifit of DMA.md",
     "Computer Orgnization/notes/Why RISC do not use Microcodes ?.md",
-    "English words.md",
     "Computer Orgnization/Sheets content.md",
     "Computer Orgnization/notes/Branch Prediction.md",
     "Software Engineering/notes/Reports/The Perfection Paradox Why 100% Reliability is a Software Engineering Myth.md",
@@ -227,8 +244,6 @@
     "Software Engineering/notes/Dubious long-term value.md",
     "Software Engineering/notes/Diversity and dependability.md",
     "Software Engineering/notes/Continuous Integration - XP Practice.md",
-    "Software Engineering/notes/Collective Ownership - XP Practice.md",
-    "Software Engineering/notes/architectural views.md",
     "Untitled.canvas",
     "Software Engineering/Ch4 Req Eng.pdf",
     "Software Engineering/exam_prompts",
