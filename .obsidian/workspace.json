@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tasks/2026-04-11.md",
-                "mode": "preview",
+                "file": "Networks/CH 11.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-04-11"
+              "title": "CH 11"
             }
           }
         ]
@@ -201,25 +201,25 @@
   },
   "active": "ceb3febb9e7c2e92",
   "lastOpenFiles": [
-    "2026-04-11.md",
+    "Computer Orgnization/Lecture 2 - Computer Evolution and Performance.md",
+    "Computer Orgnization/notes/Why RISC do not use Microcodes ?.md",
+    "Computer Orgnization/notes/Timing Signals.md",
+    "Computer Orgnization/notes/Control Bus.md",
+    "Computer Orgnization/notes/Benifit of DMA.md",
+    "Computer Orgnization/notes/Branch Prediction.md",
+    "Computer Orgnization/notes/Address bus width determine the  maximum memory capacity.md",
     "Tasks/2026-04-11.md",
+    "2026-04-11.md",
     "Untitled Kanban.md",
     "Tasks/2026-04-07.md",
-    "Computer Orgnization/notes/Timing Signals.md",
     "English words.md",
     "Computer Orgnization/Lecture 3 - A Top-Level View of Computer Function and Interconnection.md",
-    "Computer Orgnization/notes/Control Bus.md",
-    "Computer Orgnization/notes/Address bus width determine the  maximum memory capacity.md",
-    "Computer Orgnization/notes/Benifit of DMA.md",
-    "Computer Orgnization/notes/Why RISC do not use Microcodes ?.md",
     "Computer Orgnization/Sheets content.md",
-    "Computer Orgnization/notes/Branch Prediction.md",
     "Software Engineering/notes/Reports/The Perfection Paradox Why 100% Reliability is a Software Engineering Myth.md",
     "Computer Orgnization/notes",
     "Software Engineering/Lectures/Lecture 06 - Architectural Design in Software Engineering.md",
     "Software Engineering/notes/Reports",
     "Software Engineering/exam_prompts/Prompt 1.md",
-    "Computer Orgnization/Lecture 2 - Computer Evolution and Performance.md",
     "Tasks/2026-04-10.md",
     "Software Engineering/notes/Realism checks in Requirements validation.md",
     "Software Engineering/notes/Probability of Failure on Demand (POFOD).md",
