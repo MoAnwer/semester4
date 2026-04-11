@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "7bd5952c500acde4",
+        "id": "95281cc30d417b0f",
         "type": "tabs",
         "children": [
           {
-            "id": "419cf286ef067478",
+            "id": "5dccad69cdb26822",
             "type": "leaf",
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": "Computer Orgnization/notes/Branch Prediction.md",
-                "bFile": "Computer Orgnization/notes/Branch Prediction.md",
+                "aFile": "Computer Orgnization/notes/Untitled.md",
+                "bFile": "Computer Orgnization/notes/Untitled.md",
                 "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: Branch Prediction  (Working Tree)"
+              "title": "Diff: Untitled  (Working Tree)"
             }
           }
         ]
@@ -199,8 +199,10 @@
       "pexels-banner:🚩 Pixel Banner Menu": false
     }
   },
-  "active": "53d69333c7b854eb",
+  "active": "5dccad69cdb26822",
   "lastOpenFiles": [
+    "Computer Orgnization/notes/Benifit of DMA.md",
+    "Computer Orgnization/notes/Why RISC do not use Microcodes ?.md",
     "English words.md",
     "Computer Orgnization/Sheets content.md",
     "Computer Orgnization/notes/Branch Prediction.md",
@@ -227,8 +229,6 @@
     "Software Engineering/notes/architectural views.md",
     "Software Engineering/notes/Mathematical or Formal Specifications in Requirements engineering.md",
     "Software Plan.md",
-    "Software Engineering/notes/Maintainability.md",
-    "Tasks/2026-04-09.md",
     "Untitled.canvas",
     "Software Engineering/Ch4 Req Eng.pdf",
     "Software Engineering/exam_prompts",
