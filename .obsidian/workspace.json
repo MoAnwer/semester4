@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "95281cc30d417b0f",
+        "id": "8c6aa150cb6b5cfe",
         "type": "tabs",
         "children": [
           {
-            "id": "5dccad69cdb26822",
+            "id": "839138ded2c78b96",
             "type": "leaf",
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": "Computer Orgnization/notes/Untitled.md",
-                "bFile": "Computer Orgnization/notes/Untitled.md",
+                "aFile": "Computer Orgnization/notes/Address bus width determine the  maximum memory capacity.md",
+                "bFile": "Computer Orgnization/notes/Address bus width determine the  maximum memory capacity.md",
                 "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: Untitled  (Working Tree)"
+              "title": "Diff: Address bus width determine the  maximum memory capacity  (Working Tree)"
             }
           }
         ]
@@ -199,8 +199,10 @@
       "pexels-banner:🚩 Pixel Banner Menu": false
     }
   },
-  "active": "5dccad69cdb26822",
+  "active": "53d69333c7b854eb",
   "lastOpenFiles": [
+    "Computer Orgnization/notes/Control Bus.md",
+    "Computer Orgnization/notes/Address bus width determine the  maximum memory capacity.md",
     "Computer Orgnization/notes/Benifit of DMA.md",
     "Computer Orgnization/notes/Why RISC do not use Microcodes ?.md",
     "English words.md",
@@ -227,8 +229,6 @@
     "Software Engineering/notes/Continuous Integration - XP Practice.md",
     "Software Engineering/notes/Collective Ownership - XP Practice.md",
     "Software Engineering/notes/architectural views.md",
-    "Software Engineering/notes/Mathematical or Formal Specifications in Requirements engineering.md",
-    "Software Plan.md",
     "Untitled.canvas",
     "Software Engineering/Ch4 Req Eng.pdf",
     "Software Engineering/exam_prompts",
