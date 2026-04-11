@@ -4,24 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "b96584665d22ba41",
+        "id": "303f9091a3d46f7b",
         "type": "tabs",
         "children": [
           {
-            "id": "50a4a0a6f81df659",
+            "id": "d15bf8caecc5953a",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "ca2bf2a2b1c9217b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
               "state": {
-                "aFile": "Tasks/2026-04-07.md",
-                "bFile": "Tasks/2026-04-07.md",
-                "aRef": ""
+                "file": "Software Plan.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: 2026-04-07  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "Software Plan"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -199,11 +210,18 @@
       "pexels-banner:🚩 Pixel Banner Menu": false
     }
   },
-  "active": "50a4a0a6f81df659",
+  "active": "ca2bf2a2b1c9217b",
   "lastOpenFiles": [
-    "My Dash.md",
-    "README.md",
+    "2026-04-11.md",
+    "Software Plan.md",
     "Tasks/2026-04-07.md",
+    "Tasks/2026-04-08.md",
+    "Tasks/2026-04-10.md",
+    "Tasks/2026-04-09.md",
+    "Tasks/2026-04-11.md",
+    "English words.md",
+    "README.md",
+    "My Dash.md",
     "Networks/CH 11.md",
     "Computer Orgnization/Lecture 2 - Computer Evolution and Performance.md",
     "Computer Orgnization/notes/Why RISC do not use Microcodes ?.md",
@@ -212,10 +230,7 @@
     "Computer Orgnization/notes/Benifit of DMA.md",
     "Computer Orgnization/notes/Branch Prediction.md",
     "Computer Orgnization/notes/Address bus width determine the  maximum memory capacity.md",
-    "Tasks/2026-04-11.md",
-    "2026-04-11.md",
     "Untitled Kanban.md",
-    "English words.md",
     "Computer Orgnization/Lecture 3 - A Top-Level View of Computer Function and Interconnection.md",
     "Computer Orgnization/Sheets content.md",
     "Software Engineering/notes/Reports/The Perfection Paradox Why 100% Reliability is a Software Engineering Myth.md",
@@ -223,12 +238,8 @@
     "Software Engineering/Lectures/Lecture 06 - Architectural Design in Software Engineering.md",
     "Software Engineering/notes/Reports",
     "Software Engineering/exam_prompts/Prompt 1.md",
-    "Tasks/2026-04-10.md",
     "Software Engineering/notes/Realism checks in Requirements validation.md",
     "Software Engineering/notes/Probability of Failure on Demand (POFOD).md",
-    "Software Engineering/notes/Information Requirements.md",
-    "Software Engineering/notes/Holistic Perspective.md",
-    "Software Engineering/notes/fine-grained.md",
     "Untitled.canvas",
     "Software Engineering/Ch4 Req Eng.pdf",
     "Software Engineering/exam_prompts",

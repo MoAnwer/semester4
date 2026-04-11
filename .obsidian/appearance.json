@@ -1,4 +1,8 @@
 {
   "cssTheme": "Border",
-  "theme": "system"
+  "theme": "obsidian",
+  "enabledCssSnippets": [
+    "style"
+  ],
+  "nativeMenus": false
 }
