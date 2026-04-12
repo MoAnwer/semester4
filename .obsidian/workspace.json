@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Engineering/notes/Dependable Programming Guidelines.md",
+                "file": "Software Engineering/notes/Fault Tolerance on Aircraft Control Systems.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dependable Programming Guidelines"
+              "title": "Fault Tolerance on Aircraft Control Systems"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "38085d8cd672b1c7",
@@ -201,8 +202,9 @@
   },
   "active": "2fed3de7829393ca",
   "lastOpenFiles": [
-    "Software Engineering/notes/Process Requirements.md",
     "Software Engineering/notes/Dependable Programming Guidelines.md",
+    "Software Engineering/notes/Fault Tolerance on Aircraft Control Systems.md",
+    "Software Engineering/notes/Process Requirements.md",
     "Software Engineering/notes/Operational Profile.md",
     "Software Engineering/notes/Software Diversity.md",
     "Software Engineering/notes/Triple Modular Redundancy - TMR.md",
@@ -228,7 +230,6 @@
     "Tasks/2026-04-08.md",
     "Tasks/2026-04-10.md",
     "Tasks/2026-04-09.md",
-    "Computer Orgnization/Lecture 2 - Computer Evolution and Performance.md",
     "Computer Orgnization/notes",
     "Software Engineering/notes/Reports",
     "Untitled.canvas",
