@@ -10,3 +10,4 @@
 | bypasses   | يتجاوز   |
 | residual   | المتبقية |
 | rarely     | نادرًا   |
+| presence   | وجود     |
