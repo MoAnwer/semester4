@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Engineering/notes/Self-monitoring Architecture.md",
+                "file": "Software Engineering/notes/Self monitoring Architecture.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Self-monitoring Architecture"
+              "title": "Self monitoring Architecture"
             }
           }
         ]
@@ -201,8 +201,9 @@
   },
   "active": "2fed3de7829393ca",
   "lastOpenFiles": [
-    "Networks/CH 11.md",
     "Software Engineering/notes/Self-monitoring Architecture.md",
+    "Software Engineering/notes/Self monitoring Architecture.md",
+    "Networks/CH 11.md",
     "Software Engineering/notes/Process Requirements.md",
     "Software Engineering/notes/Availability.md",
     "English words.md",
@@ -228,7 +229,6 @@
     "Computer Orgnization/notes/Control Bus.md",
     "Computer Orgnization/notes/Benifit of DMA.md",
     "Computer Orgnization/notes/Branch Prediction.md",
-    "Computer Orgnization/notes/Address bus width determine the  maximum memory capacity.md",
     "Computer Orgnization/notes",
     "Software Engineering/notes/Reports",
     "Untitled.canvas",
