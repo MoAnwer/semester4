@@ -1,5 +1,5 @@
 ---
-banner: pixel-banner-images/Cool-Desktop-HD-Wallpaper-free-download-1.jpg
+banner: "pixel-banner-images/Cool-Desktop-HD-Wallpaper-free-download-1.jpg"
 icon: 🚀
 banner-radius: 9
 ---
