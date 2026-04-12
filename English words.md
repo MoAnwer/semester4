@@ -9,3 +9,4 @@
 | fallen     | يسقط     |
 | bypasses   | يتجاوز   |
 | residual   | المتبقية |
+| rarely     | نادرًا   |

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "English words.md",
+                "file": "Software Engineering/notes/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "English words"
+              "title": "Untitled"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "38085d8cd672b1c7",
@@ -202,6 +201,9 @@
   },
   "active": "6491f2ce310455ff",
   "lastOpenFiles": [
+    "English words.md",
+    "Software Engineering/notes/Untitled.md",
+    "Software Engineering/notes/Software Reliability Definition.md",
     "Software Engineering/notes/Fault detection and correction.md",
     "Software Engineering/notes/Error Tolerance.md",
     "Software Engineering/notes/System errors.md",
@@ -217,7 +219,6 @@
     "Tasks/2026-04-08.md",
     "Tasks/2026-04-10.md",
     "Tasks/2026-04-09.md",
-    "English words.md",
     "Networks/CH 11.md",
     "Computer Orgnization/Lecture 2 - Computer Evolution and Performance.md",
     "Computer Orgnization/notes/Why RISC do not use Microcodes ?.md",
@@ -228,8 +229,6 @@
     "Computer Orgnization/notes/Address bus width determine the  maximum memory capacity.md",
     "Untitled Kanban.md",
     "Computer Orgnization/Lecture 3 - A Top-Level View of Computer Function and Interconnection.md",
-    "Computer Orgnization/Sheets content.md",
-    "Software Engineering/notes/Reports/The Perfection Paradox Why 100% Reliability is a Software Engineering Myth.md",
     "Computer Orgnization/notes",
     "Software Engineering/notes/Reports",
     "Untitled.canvas",
