@@ -15,3 +15,4 @@
 | alone         | وحيد       |
 | possessed     | ممسوس      |
 | exhibited     | معروضة     |
+| encounters    | لقاءات     |
