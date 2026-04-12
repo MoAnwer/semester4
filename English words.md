@@ -13,3 +13,5 @@
 | presence      | وجود       |
 | Misconception | فكرة خاطئة |
 | alone         | وحيد       |
+| possessed     | ممسوس      |
+| exhibited     | معروضة     |
