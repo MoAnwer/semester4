@@ -11,14 +11,14 @@
             "id": "2fed3de7829393ca",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
+                "file": "Software Engineering/notes/Dependable Programming Guidelines.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: workspace.json  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "Dependable Programming Guidelines"
             }
           }
         ]
@@ -201,6 +201,8 @@
   },
   "active": "2fed3de7829393ca",
   "lastOpenFiles": [
+    "Software Engineering/notes/Process Requirements.md",
+    "Software Engineering/notes/Dependable Programming Guidelines.md",
     "Software Engineering/notes/Operational Profile.md",
     "Software Engineering/notes/Software Diversity.md",
     "Software Engineering/notes/Triple Modular Redundancy - TMR.md",
@@ -208,7 +210,6 @@
     "Software Engineering/notes/Self monitoring Architecture.md",
     "Software Engineering/notes/Self-monitoring Architecture.md",
     "Networks/CH 11.md",
-    "Software Engineering/notes/Process Requirements.md",
     "Software Engineering/notes/Availability.md",
     "English words.md",
     "Software Engineering/notes/Software Reliability Definition.md",
@@ -228,7 +229,6 @@
     "Tasks/2026-04-10.md",
     "Tasks/2026-04-09.md",
     "Computer Orgnization/Lecture 2 - Computer Evolution and Performance.md",
-    "Computer Orgnization/notes/Why RISC do not use Microcodes ?.md",
     "Computer Orgnization/notes",
     "Software Engineering/notes/Reports",
     "Untitled.canvas",
