@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "1bc783167e6765f6",
+        "id": "0798195dea4e9cad",
         "type": "tabs",
         "children": [
           {
-            "id": "6491f2ce310455ff",
+            "id": "2fed3de7829393ca",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Engineering/notes/Process Requirements.md",
+                "file": "Software Engineering/notes/Self-monitoring Architecture.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Process Requirements"
+              "title": "Self-monitoring Architecture"
             }
           }
         ]
@@ -199,10 +199,12 @@
       "pexels-banner:🚩 Pixel Banner Menu": false
     }
   },
-  "active": "6491f2ce310455ff",
+  "active": "2fed3de7829393ca",
   "lastOpenFiles": [
-    "Software Engineering/notes/Availability.md",
+    "Networks/CH 11.md",
+    "Software Engineering/notes/Self-monitoring Architecture.md",
     "Software Engineering/notes/Process Requirements.md",
+    "Software Engineering/notes/Availability.md",
     "English words.md",
     "Software Engineering/notes/Software Reliability Definition.md",
     "Software Engineering/notes/Fault detection and correction.md",
@@ -220,7 +222,6 @@
     "Tasks/2026-04-08.md",
     "Tasks/2026-04-10.md",
     "Tasks/2026-04-09.md",
-    "Networks/CH 11.md",
     "Computer Orgnization/Lecture 2 - Computer Evolution and Performance.md",
     "Computer Orgnization/notes/Why RISC do not use Microcodes ?.md",
     "Computer Orgnization/notes/Timing Signals.md",
@@ -228,7 +229,6 @@
     "Computer Orgnization/notes/Benifit of DMA.md",
     "Computer Orgnization/notes/Branch Prediction.md",
     "Computer Orgnization/notes/Address bus width determine the  maximum memory capacity.md",
-    "Untitled Kanban.md",
     "Computer Orgnization/notes",
     "Software Engineering/notes/Reports",
     "Untitled.canvas",
