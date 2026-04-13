@@ -17,3 +17,4 @@
 | exhibited     | معروضة     |
 | encounters    | لقاءات     |
 | slightly      | طفيف       |
+| desipte       | بالرغم من  |
