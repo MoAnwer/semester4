@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "38085d8cd672b1c7",
@@ -202,10 +201,11 @@
   },
   "active": "ccbcb94e198c5f15",
   "lastOpenFiles": [
+    "Tasks/2026-04-13.md",
     "Tasks/2026-04-12.md",
+    "English words.md",
     "Untitled.md",
     "My Dash.md",
-    "English words.md",
     "2026-04-12.md",
     "Software Engineering/exam_prompts/Prompt 1.md",
     "Software Engineering/Ch3. Agile SW Dev.pdf",
@@ -229,7 +229,6 @@
     "Tasks/2026-04-11.md",
     "Software Plan.md",
     "README.md",
-    "Tasks/2026-04-07.md",
     "pixel-banner-images/Cool-Desktop-HD-Wallpaper-free-download-1.jpg",
     "Computer Orgnization/notes",
     "Software Engineering/notes/Reports",
