@@ -11,14 +11,15 @@
             "id": "ccbcb94e198c5f15",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "English words.md",
-                "mode": "source",
-                "source": false
+                "aFile": "Tasks/2026-04-13.md",
+                "bFile": "Tasks/2026-04-13.md",
+                "aRef": "HEAD",
+                "bRef": ""
               },
-              "icon": "lucide-file",
-              "title": "English words"
+              "icon": "diff",
+              "title": "Diff: 2026-04-13  (Index)"
             }
           }
         ]
@@ -78,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "38085d8cd672b1c7",
@@ -201,11 +203,15 @@
   },
   "active": "ccbcb94e198c5f15",
   "lastOpenFiles": [
-    "Tasks/2026-04-13.md",
-    "Tasks/2026-04-12.md",
+    "Networks/Untitled.md",
+    "Software Plan.md",
     "English words.md",
-    "Untitled.md",
+    "Networks/CH 11.md",
+    "Tasks/2026-04-13.md",
     "My Dash.md",
+    "Tasks/2026-04-07.md",
+    "Tasks/2026-04-12.md",
+    "Untitled.md",
     "2026-04-12.md",
     "Software Engineering/exam_prompts/Prompt 1.md",
     "Software Engineering/Ch3. Agile SW Dev.pdf",
@@ -219,16 +225,12 @@
     "Software Engineering/notes/Channels and Comparator Self-monitoring Architecture.md",
     "Software Engineering/notes/Self monitoring Architecture.md",
     "Software Engineering/notes/Self-monitoring Architecture.md",
-    "Networks/CH 11.md",
     "Software Engineering/notes/Availability.md",
     "Software Engineering/notes/Software Reliability Definition.md",
     "Software Engineering/notes/Fault detection and correction.md",
     "Software Engineering/notes/Error Tolerance.md",
     "Software Engineering/notes/System errors.md",
     "pixel-banner-images/Cool-Wallpaper-for-Desktop-1.jpg",
-    "Tasks/2026-04-11.md",
-    "Software Plan.md",
-    "README.md",
     "pixel-banner-images/Cool-Desktop-HD-Wallpaper-free-download-1.jpg",
     "Computer Orgnization/notes",
     "Software Engineering/notes/Reports",
