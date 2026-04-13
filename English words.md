@@ -16,3 +16,4 @@
 | possessed     | ممسوس      |
 | exhibited     | معروضة     |
 | encounters    | لقاءات     |
+| slightly      | طفيف       |
