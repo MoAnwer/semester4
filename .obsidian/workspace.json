@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Engineering/notes/Summary of Project Planning.md",
+                "file": "Software Engineering/notes/Proposal Stage Planning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Summary of Project Planning"
+              "title": "Proposal Stage Planning"
             }
           }
         ]
@@ -155,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software Engineering/notes/Summary of Project Planning.md",
+                "file": "Software Engineering/notes/Proposal Stage Planning.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Summary of Project Planning"
+              "title": "Outline of Proposal Stage Planning"
             }
           },
           {
@@ -180,10 +180,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Software Engineering/notes/Summary of Project Planning.md"
+                "file": "Software Engineering/notes/Proposal Stage Planning.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Summary of Project Planning"
+              "title": "File properties for Proposal Stage Planning"
             }
           }
         ],
@@ -228,8 +228,9 @@
   },
   "active": "65ce95969d7e73ee",
   "lastOpenFiles": [
-    "Software Engineering/notes/Teamwork.md",
     "Software Engineering/notes/Summary of Project Planning.md",
+    "Software Engineering/notes/Proposal Stage Planning.md",
+    "Software Engineering/notes/Teamwork.md",
     "Tasks/2026-04-14.md",
     "Software Engineering/notes/Managing people.md",
     "Software Engineering/notes/Risk monitoring.md",
@@ -253,7 +254,6 @@
     "Computer Orgnization/notes/Why RISC do not use Microcodes ?.md",
     "Computer Orgnization/notes/Untitled.md",
     "Computer Orgnization/Lecture 2 - Computer Evolution and Performance.md",
-    "Computer Orgnization/Sheets content.md",
     "Untitled.base",
     "Untitled",
     "Software Engineering/Ch3. Agile SW Dev.pdf",
