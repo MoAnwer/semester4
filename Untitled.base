@@ -1,0 +1,14 @@
+views:
+  - type: table
+    name: Table
+  - type: cards
+    name: View
+  - type: cards
+    name: View 2
+    filters:
+      and:
+        - file.inFolder("Computer Orgnization/notes")
+    rowHeight: medium
+    imageFit: contain
+    imageAspectRatio: 1.35
+    indentProperties: true
