@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "38085d8cd672b1c7",
@@ -226,7 +227,7 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "65ce95969d7e73ee",
+  "active": "53d69333c7b854eb",
   "lastOpenFiles": [
     "Software Engineering/notes/Proposal Stage Planning.md",
     "Software Engineering/notes/Summary of Project Planning.md",
