@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Orgnization/notes/Overlapping Register Windows.md",
+                "file": "Computer Orgnization/notes/R3000 pipeline.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Overlapping Register Windows"
+              "title": "R3000 pipeline"
             }
           },
           {
@@ -225,13 +225,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Exams/Database.md",
+                "file": "Computer Orgnization/notes/R3000 pipeline.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Database"
+              "title": "Outline of R3000 pipeline"
             }
           },
           {
@@ -250,10 +250,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Exams/Database.md"
+                "file": "Computer Orgnization/notes/R3000 pipeline.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Database"
+              "title": "File properties for R3000 pipeline"
             }
           }
         ],
@@ -282,8 +282,10 @@
   },
   "active": "65ce95969d7e73ee",
   "lastOpenFiles": [
-    "Computer Orgnization/notes/Large Register File.md",
+    "Computer Orgnization/notes/Graph Coloring.md",
+    "Computer Orgnization/notes/R3000 pipeline.md",
     "Computer Orgnization/notes/Overlapping Register Windows.md",
+    "Computer Orgnization/notes/Large Register File.md",
     "Tasks/2026-04-14.md",
     "Exams/Risks of subjects.md",
     "Exams/Database.md",
@@ -309,8 +311,6 @@
     "Software Engineering/notes/architectural views.md",
     "Software Engineering/notes/Add System Evolution into SRS.md",
     "Software Engineering/Lectures/Lecture 06 - Architectural Design in Software Engineering.md",
-    "Computer Orgnization/Lecture 3 - A Top-Level View of Computer Function and Interconnection.md",
-    "Computer Orgnization/notes/Address bus width determine the  maximum memory capacity.md",
     "Untitled.base",
     "pixel-banner-images/Cool-Wallpaper-for-Desktop-1.jpg",
     "pixel-banner-images/Cool-Desktop-HD-Wallpaper-free-download-1.jpg",
