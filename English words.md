@@ -12,6 +12,7 @@
 | rarely        | نادرًا     |
 | presence      | وجود       |
 | Misconception | فكرة خاطئة |
+| conception    | تصور       |
 | alone         | وحيد       |
 | possessed     | ممسوس      |
 | exhibited     | معروضة     |
@@ -23,3 +24,4 @@
 | Contingency   | الطوارئ    |
 | seriousness   | خطورة      |
 | feasible      | ممكن       |
+| cope          | مواجهة     |

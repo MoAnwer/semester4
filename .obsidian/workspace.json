@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Engineering/notes/Risk planning.md",
+                "file": "English words.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Risk planning"
+              "title": "English words"
             }
           }
         ],
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Engineering/notes/Risk planning.md",
+                "file": "English words.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Risk planning"
+              "title": "Backlinks for English words"
             }
           },
           {
@@ -228,8 +228,8 @@
   },
   "active": "aba73925d3ce620e",
   "lastOpenFiles": [
-    "Software Engineering/notes/Risk analysis.md",
     "Software Engineering/notes/Risk planning.md",
+    "Software Engineering/notes/Risk analysis.md",
     "English words.md",
     "Tasks/2026-04-14.md",
     "Software Engineering/notes/Risk identification.md",
