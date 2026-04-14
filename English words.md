@@ -18,3 +18,4 @@
 | encounters    | لقاءات     |
 | slightly      | طفيف       |
 | desipte       | بالرغم من  |
+| assess        | يٌقيِّم    |
