@@ -22,3 +22,4 @@
 | briefing      | إحاطة      |
 | Contingency   | الطوارئ    |
 | seriousness   | خطورة      |
+| feasible      | ممكن       |
