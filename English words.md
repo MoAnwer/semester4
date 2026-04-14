@@ -21,4 +21,4 @@
 | assess        | يٌقيِّم    |
 | briefing      | إحاطة      |
 | Contingency   | الطوارئ    |
-|               |            |
+| seriousness   | خطورة      |
