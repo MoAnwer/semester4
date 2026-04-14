@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Orgnization/notes/Register-to-register operations.md",
+                "file": "Computer Orgnization/notes/Why RISC do not use Microcodes ?.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Register-to-register operations"
+              "title": "Why RISC do not use Microcodes ?"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tasks/2026-04-14.md",
+                "file": "Computer Orgnization/notes/Overlapping Register Windows.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-04-14"
+              "title": "Overlapping Register Windows"
             }
           },
           {
@@ -91,7 +91,8 @@
               "title": "Computer"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -226,13 +227,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Orgnization/notes/Register-to-register operations.md",
+                "file": "Computer Orgnization/notes/Overlapping Register Windows.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Register-to-register operations"
+              "title": "Outline of Overlapping Register Windows"
             }
           },
           {
@@ -251,10 +252,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Computer Orgnization/notes/Register-to-register operations.md"
+                "file": "Computer Orgnization/notes/Overlapping Register Windows.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Register-to-register operations"
+              "title": "File properties for Overlapping Register Windows"
             }
           }
         ],
@@ -281,8 +282,11 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "65ce95969d7e73ee",
+  "active": "cbc35d8c53d780b7",
   "lastOpenFiles": [
+    "Tasks/2026-04-14.md",
+    "Computer Orgnization/notes/Why RISC do not use Microcodes ?.md",
+    "Computer Orgnization/notes/Register-to-register operations.md",
     "Computer Orgnization/notes/R3000 pipeline.md",
     "Computer Orgnization/notes/Large Register File.md",
     "Computer Orgnization/notes/Graph Coloring.md",
@@ -290,7 +294,6 @@
     "Computer Orgnization/notes/Branch Prediction.md",
     "Computer Orgnization/notes/Benifit of DMA.md",
     "Computer Orgnization/notes/Overlapping Register Windows.md",
-    "Tasks/2026-04-14.md",
     "Exams/Risks of subjects.md",
     "Exams/Database.md",
     "Exams/Software.md",
@@ -300,7 +303,6 @@
     "Software Engineering/Ch3. Agile SW Dev.pdf",
     "Software Engineering/Ch4 Req Eng.pdf",
     "Software Engineering/notes/Realism checks in Requirements validation.md",
-    "Computer Orgnization/notes/Register-to-register operations.md",
     "English words.md",
     "Software Engineering/notes/Proposal Stage Planning.md",
     "Software Engineering/notes/Summary of Project Planning.md",
@@ -311,7 +313,6 @@
     "Software Engineering/notes/Risk analysis.md",
     "Software Engineering/notes/Risk identification.md",
     "Risk management.md",
-    "Software Engineering/notes/Architectural Representations.md",
     "Untitled.base",
     "pixel-banner-images/Cool-Wallpaper-for-Desktop-1.jpg",
     "pixel-banner-images/Cool-Desktop-HD-Wallpaper-free-download-1.jpg",
