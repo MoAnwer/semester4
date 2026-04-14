@@ -25,3 +25,4 @@
 | seriousness   | خطورة      |
 | feasible      | ممكن       |
 | cope          | مواجهة     |
+| Merely        | مُجَرّد    |
