@@ -19,3 +19,4 @@
 | slightly      | طفيف       |
 | desipte       | بالرغم من  |
 | assess        | يٌقيِّم    |
+| briefing      | إحاطة      |
