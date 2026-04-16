@@ -1,3 +1,10 @@
+---
+tags:
+  - software
+  - project-managment
+  - risk-managment
+---
+
 - Risk management is one of the most important jobs for **a project manager.**
 - Risks can be **categorized** according to type of risk
 - Project risks **affect the project schedule or resources**
@@ -9,7 +16,7 @@
 An outline of the process of risk management is presented in Figure 22.2. It
 involves several stages:
 1. **Risk identification** You should identify possible project, product, and business risks.
-2. 2.Risk analysis You should assess the likelihood and consequences of these risks.
+2. Risk analysis You should assess the likelihood and consequences of these risks.
 3. Risk planning You should make plans to address the risk, either by avoiding it or by minimizing its effects on the project.
 4. Risk monitoring You should regularly assess the risk and your plans for risk mitigation and revise these plans when you learn more about the risk.
 - For large projects, you should document the outcomes of the risk management  process in a risk management plan. 
