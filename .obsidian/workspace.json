@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Database/notes/Database End-users.md",
+                "file": "Tasks/2026-04-16.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Database End-users"
+              "title": "2026-04-16"
             }
           }
         ]
@@ -53,10 +53,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:RISC",
+                "query": "[\"tags\"]",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               },
@@ -95,6 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Tasks/2026-04-16.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for 2026-04-16"
             }
           },
           {
@@ -113,12 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Engineering/Lectures/Lecture 06 - Architectural Design in Software Engineering.md",
+                "file": "Tasks/2026-04-16.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Lecture 06 - Architectural Design in Software Engineering"
+              "title": "Outgoing links from 2026-04-16"
             }
           },
           {
@@ -151,21 +152,6 @@
             }
           },
           {
-            "id": "0eeceb7a1029c90f",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "2026-04-14.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of 2026-04-14"
-            }
-          },
-          {
             "id": "53d69333c7b854eb",
             "type": "leaf",
             "state": {
@@ -181,14 +167,29 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2026-04-14.md"
+                "file": "Tasks/2026-04-16.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for 2026-04-14"
+              "title": "File properties for 2026-04-16"
+            }
+          },
+          {
+            "id": "0eeceb7a1029c90f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Tasks/2026-04-16.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 2026-04-16"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       },
       {
         "id": "6b555d9edfd270fb",
@@ -229,6 +230,7 @@
   },
   "active": "0fac3b2d53f3b5ab",
   "lastOpenFiles": [
+    "Software Engineering/notes/Add System Evolution into SRS.md",
     "Database/notes/Database End-users.md",
     "Database/notes/Why SQL allows duplicates ?.md",
     "Tasks/2026-04-16.md",
@@ -262,7 +264,6 @@
     "Computer Orgnization/notes/Why RISC do not use Microcodes ?.md",
     "Computer Orgnization/notes/Register-to-register operations.md",
     "Computer Orgnization/notes/R3000 pipeline.md",
-    "Computer Orgnization/notes/Large Register File.md",
     "Exams",
     "Software Engineering/Ch3. Agile SW Dev.pdf",
     "Software Engineering/Ch4 Req Eng.pdf",
