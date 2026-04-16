@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Database/notes/Database users.md",
-                "mode": "preview",
+                "file": "Database/notes/Database End-users.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Database users"
+              "title": "Database End-users"
             }
           }
         ]
@@ -229,7 +229,7 @@
   },
   "active": "0fac3b2d53f3b5ab",
   "lastOpenFiles": [
-    "Database/notes/Database users.md",
+    "Database/notes/Database End-users.md",
     "Database/notes/Why SQL allows duplicates ?.md",
     "Tasks/2026-04-16.md",
     "My Dash.md",
