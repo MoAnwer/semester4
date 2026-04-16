@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Database/notes/Database users.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -229,8 +229,8 @@
   },
   "active": "0fac3b2d53f3b5ab",
   "lastOpenFiles": [
-    "Database/notes/Why SQL allows duplicates ?.md",
     "Database/notes/Database users.md",
+    "Database/notes/Why SQL allows duplicates ?.md",
     "Tasks/2026-04-16.md",
     "My Dash.md",
     "English words.md",
