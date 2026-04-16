@@ -32,3 +32,4 @@
 | numerous      | عديد          |
 | suitable      | مناسب         |
 | elimination   | القضاء        |
+| Implications  | تداعيات       |
