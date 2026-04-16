@@ -1,6 +1,7 @@
 
 | Word          | Meaning       |
 | ------------- | ------------- |
+| relative      | نسبي          |
 | sufficient    | كافٍ          |
 | argue         | يجادل         |
 | strength      | قوة           |
@@ -28,3 +29,6 @@
 | Merely        | مُجَرّد       |
 | relic         | بقايا         |
 | relentless    | لا هوادة فيها |
+| numerous      | عديد          |
+| suitable      | مناسب         |
+| elimination   | القضاء        |
