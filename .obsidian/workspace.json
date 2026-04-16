@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "English words.md",
+                "file": "Database/notes/Database users.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "English words"
+              "title": "Database users"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "38085d8cd672b1c7",
@@ -228,9 +229,12 @@
   },
   "active": "0fac3b2d53f3b5ab",
   "lastOpenFiles": [
-    "Database/notes/Logical Coherence.md",
     "Database/notes/Why SQL allows duplicates ?.md",
+    "Database/notes/Database users.md",
+    "Tasks/2026-04-16.md",
+    "My Dash.md",
     "English words.md",
+    "Database/notes/Logical Coherence.md",
     "Database/notes",
     "Exams/Networks.md",
     "Software Engineering/notes/Maintainability.md",
@@ -240,14 +244,12 @@
     "Software Engineering/notes/Proposal Stage Planning.md",
     "Software Engineering/notes/Risk management.md",
     "README.md",
-    "My Dash.md",
     "Tips/DB/Relation algabra.md",
     "Tips/DB/Untitled.md",
     "Tips/DB/ERD Questions Tips.md",
     "Tips/DB/Pasted image 20260415095333.png",
     "Tips/DB/Pasted image 20260415095234.png",
     "Exams/Computer.md",
-    "Tasks/2026-04-16.md",
     "Tasks/2026-04-14.md",
     "2026-04-14.md",
     "Tips/DB/Pasted image 20260415095428.png",
@@ -261,7 +263,6 @@
     "Computer Orgnization/notes/Register-to-register operations.md",
     "Computer Orgnization/notes/R3000 pipeline.md",
     "Computer Orgnization/notes/Large Register File.md",
-    "Computer Orgnization/notes/Graph Coloring.md",
     "Exams",
     "Software Engineering/Ch3. Agile SW Dev.pdf",
     "Software Engineering/Ch4 Req Eng.pdf",

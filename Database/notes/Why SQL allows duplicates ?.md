@@ -22,18 +22,3 @@ Standard SQL defaults to bag semantics for efficiency and functional reasons:
 ### Multiset as a Data Type
 
 Some modern SQL dialects (like Oracle and Informix) support a `MULTISET` collection data type. This allows you to store an unordered collection of values with duplicates within a single column, essentially creating a "table within a cell".
-
-
-```sql
-SELECT E.Fname, E.Lname, S.Fname, S.Lname
-FROM EMPLOYEE AS E, EMOLPYEE AS S
-WHERE E.Super_ssn = S.Ssn;
-
-UPDATE EMPLOYEE
-SET SALARY = SALARY * 1.1
-WHERE DNO IN (
-	SELECT DNUMBER
-	FROM  DEPARTMENT
-	WHERE DNAME = 'Research'
-);
-```
