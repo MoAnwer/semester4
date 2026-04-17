@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"tags\"]",
+                "query": "tag:#software",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -166,10 +167,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Tasks/2026-04-16.md"
+                "file": "Software Engineering/notes/CMMI( Capability Maturity Model Integration).md"
               },
               "icon": "lucide-info",
-              "title": "File properties for 2026-04-16"
+              "title": "File properties for CMMI( Capability Maturity Model Integration)"
             }
           },
           {
@@ -227,7 +228,7 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "0fac3b2d53f3b5ab",
+  "active": "53d69333c7b854eb",
   "lastOpenFiles": [
     "Software Engineering/notes/Spiral Model.md",
     "Software Engineering/notes/CMMI( Capability Maturity Model Integration).md",
