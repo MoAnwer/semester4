@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Engineering/notes/CMMI( Capability Maturity Model Integration).md",
-                "mode": "source",
+                "file": "Database/Lectures/Lecture 07  Complex SQL Queries, Triggers, Views, and Schema Modification.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CMMI( Capability Maturity Model Integration)"
+              "title": "Lecture 07  Complex SQL Queries, Triggers, Views, and Schema Modification"
             }
           }
         ]
@@ -74,12 +74,12 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "38085d8cd672b1c7",
@@ -228,10 +228,12 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "53d69333c7b854eb",
+  "active": "0fac3b2d53f3b5ab",
   "lastOpenFiles": [
-    "Software Engineering/notes/Spiral Model.md",
+    "Database/Lectures/Lecture 07  Complex SQL Queries, Triggers, Views, and Schema Modification.md",
     "Software Engineering/notes/CMMI( Capability Maturity Model Integration).md",
+    "Database/Lectures",
+    "Software Engineering/notes/Spiral Model.md",
     "Tasks/2026-04-16.md",
     "Software Engineering/notes/Add System Evolution into SRS.md",
     "Database/notes/Database End-users.md",
@@ -263,7 +265,6 @@
     "Tips/DB",
     "Tips",
     "Computer Orgnization/notes/Overlapping Register Windows.md",
-    "Computer Orgnization/notes/Why RISC do not use Microcodes ?.md",
     "Exams",
     "Software Engineering/Ch3. Agile SW Dev.pdf",
     "Software Engineering/Ch4 Req Eng.pdf",
@@ -273,7 +274,6 @@
     "Computer Orgnization/notes",
     "Software Engineering/notes/Reports",
     "Untitled.canvas",
-    "Software Engineering/exam_prompts",
     "pixel-banner-images/Modern high-rise urban streetscape-1.jpg",
     "pixel-banner-images/pexels-markusspiske-129107 (1).jpg",
     "pixel-banner-images/pexels-thanhly-27649774 (1).jpg"
