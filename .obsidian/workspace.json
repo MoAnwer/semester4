@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Engineering/Flashcards.md",
+                "file": "Tasks/2026-04-18 1.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Flashcards"
+              "title": "2026-04-18 1"
             }
           }
         ]
@@ -214,8 +214,9 @@
   },
   "active": "9200b23966e7ec69",
   "lastOpenFiles": [
-    "Software Engineering/notes/Egoless Programming.md",
     "Software Engineering/Flashcards.md",
+    "Tasks/2026-04-18 1.md",
+    "Software Engineering/notes/Egoless Programming.md",
     "Software Engineering/notes/Dubious long-term value.md",
     "Software Engineering/notes/Continuous Integration - XP Practice.md",
     "Software Engineering/notes/Collective Ownership - XP Practice.md",
@@ -241,7 +242,6 @@
     "Database/notes/Database End-users.md",
     "Database/notes/Why SQL allows duplicates ?.md",
     "My Dash.md",
-    "Database/notes/Logical Coherence.md",
     "Database/notes",
     "Tips/DB/Pasted image 20260415095333.png",
     "Tips/DB/Pasted image 20260415095234.png",
