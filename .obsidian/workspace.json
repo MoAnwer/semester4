@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/Lecture 08 - Artificial Neural Networks.md",
+                "file": "AI/notes/Turing test - lecture one.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 08 - Artificial Neural Networks"
+              "title": "Turing test - lecture one"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "38085d8cd672b1c7",
@@ -214,6 +213,10 @@
   },
   "active": "9200b23966e7ec69",
   "lastOpenFiles": [
+    "Tasks/2026-04-18.md",
+    "AI/notes/Turing test - lecture one.md",
+    "AI/notes",
+    "AI/Lecture 08 - Artificial Neural Networks.md",
     "AI/Lecture 6 - knowledge_representation.md",
     "Database/Lectures/Lecture 07  Complex SQL Queries, Triggers, Views, and Schema Modification.md",
     "Software Engineering/notes/CMMI( Capability Maturity Model Integration).md",
@@ -241,12 +244,9 @@
     "Tips/DB/Pasted image 20260415095333.png",
     "Tips/DB/Pasted image 20260415095234.png",
     "Exams/Computer.md",
-    "Tasks/2026-04-14.md",
-    "2026-04-14.md",
     "Tips/DB/Pasted image 20260415095428.png",
     "Tips/DB/Pasted image 20260415215217.png",
     "Tips/DB/Pasted image 20260415095508.png",
-    "Exams/Database.md",
     "Tips/DB",
     "Tips",
     "Exams",
@@ -256,7 +256,6 @@
     "pixel-banner-images/Cool-Wallpaper-for-Desktop-1.jpg",
     "pixel-banner-images/Cool-Desktop-HD-Wallpaper-free-download-1.jpg",
     "Computer Orgnization/notes",
-    "Software Engineering/notes/Reports",
     "Untitled.canvas",
     "pixel-banner-images/Modern high-rise urban streetscape-1.jpg",
     "pixel-banner-images/pexels-markusspiske-129107 (1).jpg",
