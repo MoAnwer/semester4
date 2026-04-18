@@ -33,8 +33,8 @@ tags:
     - **Constants:** Specific objects (e.g., `George`, `3`, `Green`).
 - **Syntax:** Uses symbols for constants, predicates, functions, variables, connectives (¬,∧,∨,⇒,⇔¬,∧,∨,⇒,⇔), equality (==), and quantifiers (∀∀ for all, ∃∃ there exists).
 - **Example:**
-    - "George is a monkey and he is curious": `Monkey(George) \land Curious(George)`.
-    - "Monkeys are curious": ∀m:Monkey(m)⇒Curious(m)∀m:Monkey(m)⇒Curious(m).
+    - "George is a monkey and he is curious": $$Monkey(George) \land Curious(George)$$
+    - "Monkeys are curious": $$∀m:Monkey(m)⇒Curious(m).$$
     - "There exists at least one monkey that is curious": ∃m:Monkey(m)∧Curious(m)∃m:Monkey(m)∧Curious(m).
 - **Knowledge Engineering in FOL:** A systematic process involving identifying tasks, gathering knowledge, defining vocabulary, encoding general and specific knowledge, creating queries, and debugging.
 
@@ -61,7 +61,6 @@ tags:
 - **Disadvantages:** Lack of standardization, can be interpreted differently by different users, no built-in reasoning mechanisms.
 
 ### Production Rules Systems
-
 - **Structure:** A procedural representation of knowledge, often used in expert systems. Knowledge is encoded as `IF-THEN` rules.
 - **Components:**
     - **Condition (Antecedent) Part:** The `IF` part.
