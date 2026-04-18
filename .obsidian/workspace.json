@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Engineering/notes/Egoless Programming.md",
+                "file": "Software Engineering/Flashcards.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Egoless Programming"
+              "title": "Flashcards"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "38085d8cd672b1c7",
@@ -211,8 +212,10 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "b439402f3ebe78a4",
+  "active": "9200b23966e7ec69",
   "lastOpenFiles": [
+    "Software Engineering/notes/Egoless Programming.md",
+    "Software Engineering/Flashcards.md",
     "Software Engineering/notes/Dubious long-term value.md",
     "Software Engineering/notes/Continuous Integration - XP Practice.md",
     "Software Engineering/notes/Collective Ownership - XP Practice.md",
@@ -240,8 +243,6 @@
     "My Dash.md",
     "Database/notes/Logical Coherence.md",
     "Database/notes",
-    "Exams/Networks.md",
-    "Software Engineering/notes/Maintainability.md",
     "Tips/DB/Pasted image 20260415095333.png",
     "Tips/DB/Pasted image 20260415095234.png",
     "Tips/DB/Pasted image 20260415095428.png",

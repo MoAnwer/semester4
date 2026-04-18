@@ -1,0 +1,7 @@
+CH 02 Software Processes: [link](https://notebooklm.google.com/notebook/eb0a552b-b4ed-49dd-9208-72e0f29d80a0/artifact/5e98bde6-7f08-4829-a2d8-2709c55e7376)
+CH 03 Agile: [link](https://notebooklm.google.com/notebook/eb0a552b-b4ed-49dd-9208-72e0f29d80a0/artifact/a4f9775c-9449-49f5-af89-a96cfa23b7f1)
+CH 04 Requirement Engineering: [linke](https://notebooklm.google.com/notebook/eb0a552b-b4ed-49dd-9208-72e0f29d80a0/artifact/df85fe44-b8df-43b0-b185-7392ceab3135)
+CH 05 System Modeling: [link](https://notebooklm.google.com/notebook/eb0a552b-b4ed-49dd-9208-72e0f29d80a0/artifact/79ffefa3-cf2a-4269-99c0-d339b0064ef4)
+CH 08 Testing: [link](https://notebooklm.google.com/notebook/eb0a552b-b4ed-49dd-9208-72e0f29d80a0/artifact/78515726-040f-4344-990f-b7d6e682eeea)
+CH 10 Reliability Flashcards: [link](https://notebooklm.google.com/notebook/eb0a552b-b4ed-49dd-9208-72e0f29d80a0/artifact/539d5510-042f-40f8-b763-1e305c364f7c)
+CH 12 Safety Engineering: [link](https://notebooklm.google.com/notebook/eb0a552b-b4ed-49dd-9208-72e0f29d80a0/artifact/6838b3d4-25d7-4743-955b-c1e37cce62de)
