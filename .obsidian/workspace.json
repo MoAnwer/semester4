@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/notes/Slove Problems by Search - Backtracking.md",
+                "file": "AI/Lecture 04  - Search algorithms.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Slove Problems by Search - Backtracking"
+              "title": "Lecture 04  - Search algorithms"
             }
           }
         ]
@@ -213,8 +213,10 @@
   },
   "active": "9200b23966e7ec69",
   "lastOpenFiles": [
-    "AI/notes/Turing test - lecture one.md",
+    "Computer Orgnization/Sheets content.md",
+    "AI/Lecture 04  - Search algorithms.md",
     "AI/notes/Slove Problems by Search - Backtracking.md",
+    "AI/notes/Turing test - lecture one.md",
     "Tasks/2026-04-18.md",
     "AI/notes",
     "AI/Lecture 08 - Artificial Neural Networks.md",
@@ -240,8 +242,6 @@
     "Software Engineering/notes/Risk management.md",
     "README.md",
     "Tips/DB/Relation algabra.md",
-    "Tips/DB/Untitled.md",
-    "Tips/DB/ERD Questions Tips.md",
     "Tips/DB/Pasted image 20260415095333.png",
     "Tips/DB/Pasted image 20260415095234.png",
     "Tips/DB/Pasted image 20260415095428.png",
