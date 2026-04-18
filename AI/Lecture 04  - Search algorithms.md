@@ -227,11 +227,11 @@ The Big-O notation (OO) describes the order of growth of time or memory usage as
 
 ## Comparison of Blind Search Strategies
 
-|Strategy|Completeness|Optimality|Time Complexity|Space Complexity|Notes|
-|:--|:--|:--|:--|:--|:--|
-|BFS|Yes|Yes|O(bd)O(bd)|O(bd)O(bd)|Optimal for uniform costs; high memory usage.|
-|DFS|No (if cyclic)|No|O(bm)O(bm)|O(mb)O(mb)|Low memory usage; can get stuck in infinite paths.|
-|DLS|No|No|O(bK)O(bK)|O(Kb)O(Kb)|Avoids infinite paths; may miss solution if KK is too small.|
-|IDS|Yes|Yes|O(bd)O(bd)|O(bd)O(bd)|Combines BFS optimality/completeness with DFS memory efficiency.|
-|UCS|Yes|Yes|O(bd)O(bd)|O(bd)O(bd)|Optimal for non-uniform costs; can be slow and memory-intensive.|
-|Bidirectional|Yes|Yes|O(bd/2)O(bd/2)|O(bd/2)O(bd/2)|Faster for many problems; requires backward search capability.|
+| Strategy      | Completeness   | Optimality | Time Complexity | Space Complexity | Notes                                                            |     |
+| :------------ | :------------- | :--------- | :-------------- | :--------------- | :--------------------------------------------------------------- | --- |
+| BFS           | Yes            | Yes        | O(bd)           | O(bd)            | Optimal for equals costs; high memory usage.                     |     |
+| DFS           | No (if cyclic) | No         | O(bm)           | O(mb             | Low memory usage; can get stuck in infinite paths.               |     |
+| DLS           | No             | No         | $$O(bK)$$       | O(Kb)            | Avoids infinite paths; may miss solution if KK is too small.     |     |
+| IDS           | Yes            | Yes        | O(bd)           | O(bd)            | Combines BFS optimality/completeness with DFS memory efficiency. |     |
+| UCS           | Yes            | Yes        | O(bd)           | O(bd)            | Optimal for non-uniform costs; can be slow and memory-intensive. |     |
+| Bidirectional | Yes            | Yes        | O(bd/2)         | O(bd/2)          | Faster for many problems; requires backward search capability.   |     |
