@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/Lecture 05 - Search Algorithms.md",
-                "mode": "preview",
+                "file": "AI/Lecture 07 - Machine Learning.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 05 - Search Algorithms"
+              "title": "Lecture 07 - Machine Learning"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "38085d8cd672b1c7",
@@ -94,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tasks/2026-04-16.md",
+                "file": "AI/Lecture 07 - Machine Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2026-04-16"
+              "title": "Backlinks for Lecture 07 - Machine Learning"
             }
           },
           {
@@ -178,13 +179,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/Lecture 05 - Search Algorithms.md",
+                "file": "AI/Lecture 07 - Machine Learning.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Lecture 05 - Search Algorithms"
+              "title": "Outline of Lecture 07 - Machine Learning"
             }
           }
         ],
@@ -211,10 +212,11 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "f0a75d099d7cdbba",
+  "active": "53d69333c7b854eb",
   "lastOpenFiles": [
-    "AI/notes/Consistency in A*.md",
+    "AI/lecture_05_part2.md",
     "AI/Lecture 05 - Search Algorithms.md",
+    "AI/notes/Consistency in A*.md",
     "AI/notes/A*.md",
     "Tasks/2026-04-19.md",
     "Tasks/2026-04-18 1.md",
@@ -230,7 +232,6 @@
     "Software Engineering/notes/Architectural Representations.md",
     "Software Engineering/notes/Add System Evolution into SRS.md",
     "Computer Orgnization/Sheets content.md",
-    "AI/lecture_05_part2.md",
     "English words.md",
     "AI/Lecture 04  - Search algorithms.md",
     "AI/notes/Slove Problems by Search - Backtracking.md",
