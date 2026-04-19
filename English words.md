@@ -34,3 +34,6 @@
 | elimination   | القضاء        |
 | Implications  | تداعيات       |
 | relevance.    | الملاءمة.     |
+| Recognize     | يتعرف على     |
+| willing       | راغب          |
+| Acquisition   | اكتساب        |
