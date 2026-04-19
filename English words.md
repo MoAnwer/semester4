@@ -33,3 +33,4 @@
 | suitable      | مناسب         |
 | elimination   | القضاء        |
 | Implications  | تداعيات       |
+| relevance.    | الملاءمة.     |
