@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networks/Subnetting.md",
-                "mode": "source",
+                "file": "Tasks/2026-04-19.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Subnetting"
+              "title": "2026-04-19"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "38085d8cd672b1c7",
@@ -213,11 +214,14 @@
   },
   "active": "f0a75d099d7cdbba",
   "lastOpenFiles": [
-    "Computer Orgnization/Important !!!!! (Lab + Tips for questions).md",
+    "Tasks/2026-04-14.md",
+    "My Dash.md",
+    "English words.md",
+    "Software Plan.md",
     "Networks/Subnetting.md",
+    "Computer Orgnization/Important !!!!! (Lab + Tips for questions).md",
     "Pasted image 20260419182951.png",
     "Computer Orgnization/Lecture 2 - Computer Evolution and Performance.md",
-    "English words.md",
     "AI/Lecture 07 - Machine Learning.md",
     "AI/lecture_05_part2.md",
     "AI/Lecture 05 - Search Algorithms.md",
@@ -237,9 +241,6 @@
     "Software Engineering/notes/Architectural Representations.md",
     "Software Engineering/notes/Add System Evolution into SRS.md",
     "Computer Orgnization/Sheets content.md",
-    "AI/Lecture 04  - Search algorithms.md",
-    "AI/notes/Slove Problems by Search - Backtracking.md",
-    "AI/notes/Turing test - lecture one.md",
     "AI/notes",
     "Database/Lectures",
     "Database/notes",
