@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Engineering/notes/الاختبار (Testing) يمكنه إظهار وجود الأخطاء، لكنه لا يمكنه أبداً إظهار غيابها..md",
-                "mode": "preview",
+                "file": "Computer Orgnization/Quizz & Exams/CH 02 – 50 MCQs.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "الاختبار (Testing) يمكنه إظهار وجود الأخطاء، لكنه لا يمكنه أبداً إظهار غيابها."
+              "title": "CH 02 – 50 MCQs"
             }
           },
           {
@@ -223,8 +223,12 @@
   },
   "active": "53d69333c7b854eb",
   "lastOpenFiles": [
-    "Software Engineering/notes/Operational Profile.md",
+    "Computer Orgnization/Quizz & Exams/Bus width and addressable memory.md",
+    "Computer Orgnization/Quizz & Exams/CH 02 – 50 MCQs.md",
+    "Computer Orgnization/Sheets content.md",
+    "Computer Orgnization/Quizz & Exams",
     "Software Engineering/notes/الاختبار (Testing) يمكنه إظهار وجود الأخطاء، لكنه لا يمكنه أبداً إظهار غيابها..md",
+    "Software Engineering/notes/Operational Profile.md",
     "Software Engineering/notes/Fault Tolerance on Aircraft Control Systems.md",
     "Software Engineering/notes/Fault detection and correction.md",
     "Software Engineering/notes/Channels and Comparator Self-monitoring Architecture.md",
@@ -235,7 +239,6 @@
     "Networks/CH 11.md",
     "Database/notes/Database End-users.md",
     "Database/Lectures/Lecture 07  Complex SQL Queries, Triggers, Views, and Schema Modification.md",
-    "Computer Orgnization/Sheets content.md",
     "Computer Orgnization/Lecture 3 - A Top-Level View of Computer Function and Interconnection.md",
     "Computer Orgnization/Lecture 2 - Computer Evolution and Performance.md",
     "Computer Orgnization/Important !!!!! (Lab + Tips for questions).md",
@@ -248,8 +251,6 @@
     "AI/lecture_05_part2.md",
     "AI/Lecture 05 - Search Algorithms.md",
     "AI/notes/Consistency in A*.md",
-    "AI/notes/A*.md",
-    "Tasks/2026-04-18 1.md",
     "AI/notes",
     "Database/Lectures",
     "Database/notes",
@@ -266,7 +267,6 @@
     "Untitled.base",
     "pixel-banner-images/Cool-Wallpaper-for-Desktop-1.jpg",
     "pixel-banner-images/Cool-Desktop-HD-Wallpaper-free-download-1.jpg",
-    "Computer Orgnization/notes",
     "Untitled.canvas",
     "pixel-banner-images/Modern high-rise urban streetscape-1.jpg",
     "pixel-banner-images/pexels-markusspiske-129107 (1).jpg"
