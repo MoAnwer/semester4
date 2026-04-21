@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Orgnization/Quizz & Exams/CH 02 – 50 MCQs.md",
+                "file": "Computer Orgnization/notes/Lecture 03  - Top level notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CH 02 – 50 MCQs"
+              "title": "Lecture 03  - Top level notes"
             }
           },
           {
@@ -221,10 +221,12 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "53d69333c7b854eb",
+  "active": "775ab9546101354f",
   "lastOpenFiles": [
-    "Computer Orgnization/Quizz & Exams/Bus width and addressable memory.md",
+    "Pasted image 20260421093657.png",
     "Computer Orgnization/Quizz & Exams/CH 02 – 50 MCQs.md",
+    "Computer Orgnization/notes/Lecture 03  - Top level notes.md",
+    "Computer Orgnization/Quizz & Exams/Bus width and addressable memory.md",
     "Computer Orgnization/Sheets content.md",
     "Computer Orgnization/Quizz & Exams",
     "Software Engineering/notes/الاختبار (Testing) يمكنه إظهار وجود الأخطاء، لكنه لا يمكنه أبداً إظهار غيابها..md",
@@ -249,8 +251,6 @@
     "Pasted image 20260419182951.png",
     "AI/Lecture 07 - Machine Learning.md",
     "AI/lecture_05_part2.md",
-    "AI/Lecture 05 - Search Algorithms.md",
-    "AI/notes/Consistency in A*.md",
     "AI/notes",
     "Database/Lectures",
     "Database/notes",
