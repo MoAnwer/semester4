@@ -1,3 +1,8 @@
+---
+tags:
+  - coa
+  - top-level-computer-functions
+---
 
 At a top level, a computer consists of:
 1. CPU (central processing unit)
@@ -5,13 +10,37 @@ At a top level, a computer consists of:
 3. I/O components
 
 with one or more modules of each type. These components are interconnected in some fashion to achieve the **basic function of the computer, which is to execute programs.** Thus, at a top level, we can characterize a computer system by describing:
-1. the external behavior of each component, that is, the data and control signals that it exchanges with other components.
-2. the interconnection structure and the controls required to manage the use of the interconnection structure.
+1. the external behavior of each component, that is, the **data** and **control signals** that it exchanges with other components.
+2. the **interconnection structure** and the controls required to manage the use of the interconnection structure.
 
+## Hardware and Software Approaches
 
 Now consider this alternative. Suppose we construct a **general-purpose configuration of arithmetic and logic functions.** This set of hardware will perform various functions on data **depending on control signals applied to the hardware.**
+<center>
+<img src="Pasted image 20260421170406.png"/>
+</center>
 
-In the original case of customized hardware, the system accepts data and produces results (Figure 3.1a). With general-purpose hardware, the system **accepts data and control signals and produces results.** Thus, instead of rewiring the hardware for each new program, the programmer merely needs to supply a **new set of control signals.** How shall control signals be supplied? The answer is simple but subtle. The entire program is actually a sequence of steps. At each step, some arithmetic or logical operation is performed on some data. For each step, a new set of control signals is needed. Let us provide a unique code for each possible set of control signals, and let us add to the general-purpose hardware a segment that can accept a code and generate control signals.
+In the original case of customized hardware, the system accepts data and produces results (Figure 3.1a). With general-purpose hardware, the system **accepts data and control signals and produces results.** Thus, instead of rewiring the hardware for each new program, the programmer merely needs to supply a **new set of control signals.** How shall control signals be supplied? The answer is simple but subtle. The entire program is actually a sequence of steps. At each step, some arithmetic or logical operation is performed on some data. For each step, a new set of control signals is needed. Let us provide a unique code for each possible set of control signals, and let us add to the general-purpose hardware a segment that can **accept a code** and **generate control signals.**
+
+## I/O Components
+
+- Input module
+	Contains basic components fo**r accepting data and instructions** and **converting** them **into an internal form** of **signals** usable by the system
+- Output module
+	Means of reporting results
+
+<br>
+
+
+<center>
+<img src="Pasted image 20260421171027.png">
+</center>
+
+ A memory module **consists of a set of locations**, **defined by sequentially**
+**numbered addresses**. Each **location** contains **a binary number** that can be **interpreted**
+**as either an instruction or data.** An I/O module transfers data from external devices
+to CPU and memory, and vice versa. It contains internal buffers for temporarily
+holding these data until they can be sent on.
 
 ## Basic instruction cycle 
 
@@ -19,11 +48,11 @@ In its simplest form, instruction processing consists of two steps:
 1. The processor reads (fetches) instructions from memory one at a time.
 2. Executes each instruction. 
 
- **Program execution** : consists of **repeating** the process of instruction **fetch** and instruction **execution**. 
+- **Program execution** : consists of **repeating** the process of instruction **fetch** and instruction **execution**. 
 
-The instruction execution may involve several operations and depends on the **nature** of the **instruction**.
+- The instruction execution may involve several operations and depends on the **nature** of the **instruction**.
 
-**Instruction cycle:** The processing required for a single instruction.
+- **Instruction cycle:** The processing required for a single instruction.
 
 Using the simplified two-step description given previously, The two steps are referred to as the **fetch cycle** and the **execute cycle.**
 
@@ -36,43 +65,92 @@ Program execution **halts** only if:
 
 In general, these actions fall into four categories:
 
-- Processor-memory: Data may be transferred from processor to memory or from memory to processor.
+- **Processor-memory:** Data may be transferred from processor to memory or from memory to processor.
 
-- Processor-I/O: Data may be transferred to or from a peripheral device by transferring between the processor and an I/O module.
+- **Processor-I/O:** Data may be transferred to or from a peripheral device by transferring between the processor and an I/O module.
 
-- Data processing: The processor may perform some arithmetic or logic operation on data.
+- **Data processing:** The processor may perform some arithmetic or logic operation on data.
 
-- Control: An instruction may specify that the sequence of execution be altered.
+- **Control:** An instruction may specify that the sequence of execution be altered.
 
 For example, the processor may fetch an instruction from location 149, which specifies that the next instruction be from location 182. The processor will remember this fact by setting the program counter to 182. Thus, on the next fetch cycle, the instruction will be fetched from location 182 rather than 150.
 
-An instruction's execution may involve a combination of these actions.
+An instruction's execution may involve a **combination of these actions.**
 
 
 ## Classes of interrupt
 
 ##### Program:
-Generated by some condition that occurs as a result of an instruction execution, such as arithmetic overflow, division by zero, attempt to execute an illegal machine instruction, or reference outside a user's allowed memory space.
+Generated by some condition that **occurs** **as a result of an instruction execution**, such as **arithmetic overflow, division by zero, attempt to execute an illegal machine instruction**, or reference outside a user's allowed memory space.
 
 ##### Timer:
-Generated by a timer within the processor. This allows the operating system to perform certain functions on a regular basis.
+Generated by a **timer within the processor**. This allows the operating system to perform certain functions on a regular basis.
 
 ##### I/O:
-Generated by an I/O controller, to signal normal completion of an operation, request service from the processor, or to signal a variety of error conditions.
+**Generated by an I/O controller,** to signal normal completion of an operation, request service from the processor, or to signal a variety of error conditions.
 
 ##### Hardware failure:
 Generated by a failure such as power failure or memory parity error.
 
-Virtually all computers provide a mechanism by which other modules (I/O, memory) may interrupt the normal processing of the processor. we need to introduce the concept now to understand more clearly the nature of the instruction cycle and the implications of interrupts on the interconnection structure.
+Virtually all computers provide a mechanism by which other modules (I/O, memory) may **interrupt** the normal processing of the processor. we need to introduce the concept now to understand more clearly the nature of the instruction cycle and the implications of interrupts on the interconnection structure.
 
 From the point of view of the user program, an interrupt is just that: 
-an interruption of the normal sequence of execution. **When the interrupt processing is completed, execution resumes** Thus, the user program **does not have to contain any special code** to accommodate interrupts; the **processor and the operating system** are **responsible for suspending the user program and then resuming it at the same point.**
+an interruption of the normal sequence of execution. **When the interrupt processing is completed, execution resumes** Thus, the user program **does not have to contain any special code** to accommodate interrupts; the **responsible for suspending the user program and then resuming it at the same point:*
+- processor
+- operating system
 
 
+## Interrupts
+
+ If an **interrupt is pending**, the processor does the following:
+
+-  It **suspends execution** of the current program being executed and **saves its**
+**context.** This means **saving the address of the next instruction to be executed**
+(current contents of the program counter) and any other data relevant to the
+processor’s current activity.
+
+-  It **sets the program counter** to the starting address of an interrupt handler routine.
+
+The processor now proceeds to the fetch cycle and fetches the first instruction
+in the interrupt handler program, which will service the interrupt. _The interrupt
+handler program is generally_ **part of the operating system.** Typically, **this program**
+**determines the nature of the interrupt** and performs whatever actions are needed.
+In the example we have been using, the handler determines which I/O module
+generated the interrupt and may branch to a program that will write more data out
+to that I/O module. When the interrupt handler routine is completed, the processor
+can resume execution of the user program at the point of interruption.
+
+It is clear that there is some overhead involved in this process. Extra instructions
+must be executed (in the interrupt handler) to determine the nature of the interrupt
+and to decide on the appropriate action. Nevertheless, because of the relatively large
+amount of time that would be wasted by simply waiting on an I/O operation, the
+processor can be employed much more efficiently with the use of interrupts.
+
+
+## Multiple interrupts
+
+_Two approaches_ can be taken to dealing with multiple interrupts:
+##### Sequentional interrupt processing
+- **Disable interrupts while an interrupt is being processed.**
+- A disabled interrupt simply means that the **processor can and will ignore that interrupt request signal**
+- If an interrupt occurs during this time, it generally remains pending and will be checked by the processor after the processor has enabled interrupts
+- After the **interrupt handler routine completes**, _interrupts are enabled **before** resuming the user program_
+- **Drawback**:
+	- The drawback to the preceding approach is that it _does not take into account relative priority or time-critical need_
+##### Nesting interrupt processing
+A second approach is to **define priorities** for interrupts and to allow an
+interrupt of **higher priority to cause a lower-priority interrupt handler** to be itself
+interrupted 
+
+### Interconnection structure
+
+The collection of paths connecting the various modules is called the _interconnection
+structure._ The design of this structure will depend on the exchanges that
+must be made among modules.
 
 # Bus
 
-A bus is a **communication pathway connecting two or more devices. A key characteristic of a bus is that it is a shared transmission medium.** Multiple devices connect to the bus, and a signal transmitted by any one device is available for reception by all other devices attached to the bus. If two devices transmit during the same time period, their signals will overlap and become garbled. Thus, only one device at a time can successfully transmit.
+A bus is a _communication pathway connecting two or more devices. A key characteristic of a bus is that it is a **shared transmission medium**._ Multiple devices connect to the bus, and a signal transmitted by any one device is available for reception by all other devices attached to the bus. If two devices transmit during the same time period, their signals will overlap and become garbled. Thus, _only one device at a time can successfully transmit_.
 
 Typically, a bus consists of multiple communication pathways, or lines. Each line is capable of transmitting signals representing binary 1 and binary 0. Over time, a sequence of binary digits can be transmitted across a single line. Taken together, several lines of a bus can be used to **transmit binary digits simultaneously (in parallel).** For example, an 8-bit unit of data can be transmitted over eight bus lines.
 
@@ -81,39 +159,32 @@ Computer systems contain a number of different buses that provide pathways betwe
 
 ### System bus
 
-A system bus consists, typically, of from about **fifty to hundreds of separate lines**.
-The **data lines** **provide a path for moving data among system modules**. These lines, collectively, are called the data bus. The data bus may consist of 32, 64, 128, or even more separate lines, the number of lines being referred to as the width of the data bus. Because each line can carry only 1 bit at a time, the number of lines determines how many bits can be transferred at a time. **The width of the data bus** is a key factor in determining overall system performance. For example, if the data bus is 32 bits wide and each instruction is 64 bits long, then the processor must access the memory module twice during each instruction cycle.
+- A system bus consists, typically, of from about **fifty to hundreds of separate lines**.
+- The **data lines** **provide a path for moving data among system modules**. These lines, collectively, are called the _data bus_. The data bus may consist of 32, 64, 128, or even more separate lines, the _number of lines being referred to as the width of the data bus._
+- Because each line can carry only 1 bit at a time, the number of lines determines how many bits can be transferred at a time. 
+- _The width of the **data bus**_ is a key factor in determining overall system performance. For example, if the data bus is 32 bits wide and each instruction is 64 bits long, then the processor must access the memory module twice during each instruction cycle.
 
 
 ### Data bus and address bus
 
-The **address lines are used to designate the source or destination of the data on the data bus.** For example, if the processor wishes to read a word (8, 16, or 32 bits) of data from memory, it puts the address of the desired word on the address lines.
-
-Clearly, the width of the **address bus determines the maximum possible memory capacity of the system.** Furthermore, the address lines are generally also used to **address I/O ports.** Typically, the **higher-order bits are used to select a particular module on the bus**, and the **lower-order bits select a memory location or I/O port within the module**. For example, on an 8-bit address bus, address 01111111 and below might reference locations in a memory module (module 0) with 128 words of memory, and address 10000000 and above refer to devices attached to an I/O module (module 1).
+- The **address lines are used to designate the source or destination of the data on the data bus.** For example, if the processor wishes to read a word (8, 16, or 32 bits) of data from memory, it puts the address of the desired word on the address lines.
+- Clearly, the width of the **address bus determines the maximum possible memory capacity of the system.**
+- The _address lines_ are generally also used to **address I/O ports.** Typically, the **higher-order bits are used to select a particular module on the bus**, and the **lower-order bits select a memory location or I/O port within the module**. For example, on an 8-bit address bus, address 01111111 and below might reference locations in a memory module (module 0) with 128 words of memory, and address 10000000 and above refer to devices attached to an I/O module (module 1).
 
 ### Control lines
 The control lines are used to **control the access to** and **the use of the data and address line**s. Because the **data and address lines are shared by all components**, there must be a means of controlling their use. Control signals transmit both command and timing information among system modules.
 
-**Timing signals** indicate the **validity of data and address information.**
+- **Timing signals** indicate the **validity of data and address information.**
 
-**Command signals** specify **operations to be performed.** Typical control lines include:
-
-- Memory write: causes data on the bus to be written into the addressed location
-
-- Memory read: causes data from the addressed location to be placed on the bus
-
-- I/O write: causes data on the bus to be output to the addressed I/O port
-
-- I/O read: causes data from the addressed I/O port to be placed on the bus
-
-- Transfer ACK: indicates that data have been accepted from or placed on the bus
-
-- *Bus request*: indicates that a module needs to gain control of the bus
-
-- Bus grant: indicates that a requesting module has been granted control of the bus
-
-- Interrupt request: indicates that an interrupt is pending
-
-- Interrupt ACK: acknowledges that the pending interrupt has been recognized
-
- - Clock: is used to synchronize operations
+- **Command signals** specify **operations to be performed.** Typical control lines include:
+	- Memory write: causes data on the bus to be written into the addressed location
+	- Memory read: causes data from the addressed location to be placed on the bus
+	- I/O write: causes data on the bus to be output to the addressed I/O port
+	- I/O read: causes data from the addressed I/O port to be placed on the bus
+	- Transfer ACK: indicates that data have been accepted from or placed on the bus
+	- Bus request: indicates that a module needs to gain control of the bus
+	- Bus grant: indicates that a requesting module has been granted control of the bus	
+	- Interrupt request: indicates that an interrupt is pending
+	- Interrupt ACK: acknowledges that the pending interrupt has been recognized
+	- Clock: is used to synchronize operations
+	- Reset
