@@ -412,7 +412,6 @@ The MIPS architecture leverages a simplified instruction set to achieve highly e
 8. **WB (Write Back):** The final result is written back into the destination register.
     
 
----
 
 ### **Why use 8 stages? (The "Super-pipeline" Benefit)**
 
