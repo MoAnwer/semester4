@@ -395,6 +395,8 @@ The MIPS architecture leverages a simplified instruction set to achieve highly e
 
  **8 stages of the MIPS R4000 pipeline**, which is a classic example of _Super-pipelining_:
 
+### The 8 Stages of MIPS R4000 Pipeline
+
 1. **IF1 (Instruction Fetch 1):** The processor sends the virtual address to the instruction cache and the translation lookaside buffer (TLB).
     
 2. **IF2 (Instruction Fetch 2):** The instruction is retrieved from the cache, and the physical address is generated.
@@ -412,6 +414,7 @@ The MIPS architecture leverages a simplified instruction set to achieve highly e
 8. **WB (Write Back):** The final result is written back into the destination register.
     
 
+---
 
 ### **Why use 8 stages? (The "Super-pipeline" Benefit)**
 
