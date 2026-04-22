@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Orgnization/Quizz & Exams/Quizz - Lecture 05.md",
+                "file": "Computer Orgnization/lectures/Lecture 05 - Reduce  instruction set computer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Quizz - Lecture 05"
+              "title": "Lecture 05 - Reduce  instruction set computer"
             }
           }
         ]
@@ -214,9 +214,10 @@
   },
   "active": "78e2a59fcffbc5a7",
   "lastOpenFiles": [
+    "Pasted image 20260422130420.png",
+    "Computer Orgnization/notes/Pipelining important.md",
     "Computer Orgnization/Quizz & Exams/Quizz - Lecture 05.md",
     "Computer Orgnization/lectures/Lecture 05 - Reduce  instruction set computer.md",
-    "Computer Orgnization/notes/Pipelining important.md",
     "Pasted image 20260422080746.png",
     "Computer Orgnization/lectures/Chapter 3 Top level.md",
     "Computer Orgnization/Quizz & Exams/CH 02 – 50 MCQs.md",
@@ -246,7 +247,6 @@
     "Computer Orgnization/Important !!!!! (Lab + Tips for questions).md",
     "Tasks/2026-04-14.md",
     "My Dash.md",
-    "Software Plan.md",
     "Pasted image 20260419182951.png",
     "AI/notes",
     "Database/Lectures",

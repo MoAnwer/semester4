@@ -1,7 +1,7 @@
 ---
 tags:
   - coa
-banner: pixel-banner-images/pexels-markusspiske-129107 (1).jpg
+banner: "pixel-banner-images/pexels-markusspiske-129107 (1).jpg"
 ---
 ### **The Evolution of Programming Languages & Computer Architecture**
 
@@ -383,3 +383,46 @@ The MIPS architecture leverages a simplified instruction set to achieve highly e
 | **Strategy**      | Parallel "lanes" (Horizontal growth)    | More/finer stages (Vertical growth)       |
 | **Main Benefit**  | Multiple instructions at the same stage | More instructions in the pipeline overall |
 | **Main Drawback** | Complex coordination logic              | Transfer overhead between stages          |
+
+---
+![[Pasted image 20260422130420.png]]
+
+
+
+---
+
+# The 8 Stages of MIPS R4000 Pipeline
+
+ **8 stages of the MIPS R4000 pipeline**, which is a classic example of _Super-pipelining_:
+
+1. **IF1 (Instruction Fetch 1):** The processor sends the virtual address to the instruction cache and the translation lookaside buffer (TLB).
+    
+2. **IF2 (Instruction Fetch 2):** The instruction is retrieved from the cache, and the physical address is generated.
+    
+3. **RF (Register File):** The instruction is **decoded**, and the required data (operands) are fetched from the registers.
+    
+4. **EX (Execute):** The ALU performs the actual operation (like addition or address calculation).
+    
+5. **TC (Tag Check):** The processor checks the "cache tags" to ensure the required data is actually in the cache before trying to read or write it.
+    
+6. **DC1 (Data Cache 1):** The virtual address for the data is presented to the data cache.
+    
+7. **DC2 (Data Cache 2):** The data cache outputs the requested data.
+    
+8. **WB (Write Back):** The final result is written back into the destination register.
+    
+
+---
+
+### **Why use 8 stages? (The "Super-pipeline" Benefit)**
+
+- **Higher Frequency:** By breaking the process into smaller pieces, each piece is very fast. This allows the CPU to run at a much higher **Clock Speed** (MHz/GHz).
+    
+- **Increased Parallelism:** At any given moment, 8 different instructions are in different stages of completion, significantly increasing the amount of work done per second.
+    
+
+### **The Role of Register Windows (The Hardware Edge)**
+
+While the pipeline handles _execution_, the **Overlapping Register Windows** (from the other image) handle _communication_. They ensure that when functions call each other, the data is already waiting in the registers (via the overlap), preventing the pipeline from stalling due to slow memory access.
+
+This combination of a **deep pipeline** (8 stages) and **register windows** is what made the R4000 one of the most powerful RISC processors of its time.
