@@ -37,4 +37,4 @@
 | Recognize     | يتعرف على     |
 | willing       | راغب          |
 | Acquisition   | اكتساب        |
-| relinquish    |               |
+| relinquish    | التخلي        |
