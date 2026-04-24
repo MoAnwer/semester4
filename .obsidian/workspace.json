@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networks/notes/Network renumbering.md",
+                "file": "Tasks/2026-04-24.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Network renumbering"
+              "title": "2026-04-24"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "38085d8cd672b1c7",
@@ -213,8 +214,8 @@
   },
   "active": "78e2a59fcffbc5a7",
   "lastOpenFiles": [
-    "Tasks/2026-04-24.md",
     "Networks/notes/Network renumbering.md",
+    "Tasks/2026-04-24.md",
     "Tasks/2026-04-08.md",
     "Networks/notes/NAT notes.md",
     "Tasks/2026-04-20.md",
