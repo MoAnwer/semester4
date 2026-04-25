@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Engineering/Testing exam.md",
-                "mode": "preview",
+                "file": "Software Engineering/Lectures/Software reuse.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Testing exam"
+              "title": "Software reuse"
             }
           }
         ]
@@ -226,9 +226,10 @@
   },
   "active": "78e2a59fcffbc5a7",
   "lastOpenFiles": [
+    "Software Engineering/Testing exam.md",
+    "Software Engineering/Lectures/Software reuse.md",
     "Pasted image 20260425144300.png",
     "Networks/Networks Exam 3  (my wrong answers).md",
-    "Software Engineering/Testing exam.md",
     "Pasted image 20260425130842.png",
     "Networks/imgs/Pasted image 20260425130532.png",
     "Networks/imgs/Pasted image 20260425130218.png",
@@ -238,7 +239,6 @@
     "Networks/imgs/Pasted image 20260425122408.png",
     "Networks/imgs/Pasted image 20260425122115.png",
     "Pasted image 20260421093657.png",
-    "Pasted image 20260421170339.png",
     "Networks/imgs",
     "Tasks/2026-04-24.md",
     "Networks/notes/Network renumbering.md",
