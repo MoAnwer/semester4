@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tasks/2026-04-24.md",
-                "mode": "preview",
+                "file": "Networks/Networks Exams (my wrong answers).md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-04-24"
+              "title": "Networks Exams (my wrong answers)"
             }
           }
         ]
@@ -73,13 +73,24 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
+          },
+          {
+            "id": "0a5bbf650d1d2b4c",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Networks/imgs/Pasted image 20260425121338.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20260425121338"
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "38085d8cd672b1c7",
@@ -212,10 +223,18 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "78e2a59fcffbc5a7",
+  "active": "b439402f3ebe78a4",
   "lastOpenFiles": [
-    "Networks/notes/Network renumbering.md",
+    "Networks/imgs/Pasted image 20260425122408.png",
+    "Networks/imgs/Pasted image 20260425122115.png",
+    "Pasted image 20260421093657.png",
+    "Pasted image 20260421170339.png",
+    "Pasted image 20260422130420.png",
+    "Networks/imgs/Pasted image 20260425121338.png",
+    "Networks/Networks Exams (my wrong answers).md",
+    "Networks/imgs",
     "Tasks/2026-04-24.md",
+    "Networks/notes/Network renumbering.md",
     "Tasks/2026-04-08.md",
     "Networks/notes/NAT notes.md",
     "Tasks/2026-04-20.md",
@@ -224,7 +243,6 @@
     "Networks/notes",
     "Networks/Untitled.md",
     "Computer Orgnization/lectures/Lecture 05 - Reduce  instruction set computer.md",
-    "Pasted image 20260422130420.png",
     "Computer Orgnization/notes/Pipelining important.md",
     "Computer Orgnization/Quizz & Exams/Quizz - Lecture 05.md",
     "Pasted image 20260422080746.png",
@@ -237,9 +255,7 @@
     "Pasted image 20260421171027.png",
     "Pasted image 20260421170406.png",
     "Pasted image 20260421170403.png",
-    "Pasted image 20260421170339.png",
     "Computer Orgnization/notes/Lecture 03  - Top level notes.md",
-    "Pasted image 20260421093657.png",
     "Computer Orgnization/Quizz & Exams",
     "Software Engineering/notes/الاختبار (Testing) يمكنه إظهار وجود الأخطاء، لكنه لا يمكنه أبداً إظهار غيابها..md",
     "Software Engineering/notes/Operational Profile.md",
@@ -247,19 +263,14 @@
     "Software Engineering/notes/Fault detection and correction.md",
     "Software Engineering/notes/Channels and Comparator Self-monitoring Architecture.md",
     "Software Engineering/notes/Add System Evolution into SRS.md",
-    "Tasks/2026-04-19.md",
-    "Networks/CH 11.md",
     "Pasted image 20260419182951.png",
     "AI/notes",
     "Database/Lectures",
     "Database/notes",
-    "Tips/DB/Pasted image 20260415095333.png",
-    "Tips/DB/Pasted image 20260415095234.png",
     "Tips/DB",
     "Tips",
     "Exams",
     "Software Engineering/Ch3. Agile SW Dev.pdf",
-    "Software Engineering/Ch4 Req Eng.pdf",
     "Untitled.canvas"
   ]
 }
