@@ -5,10 +5,10 @@
 | ch 02                         | #done            |                  |         |           |
 | ch 03 - agile                 | #done            |                  |         |           |
 | ch 04 - RE                    | #done            |                  |         |           |
-| ch 05 - SYSMO                 |                  |                  |         |           |
-| ch 06                         |                  |                  |         |           |
+| ch 05 - SYSMO                 | #done            |                  |         |           |
+| ch 06                         | #done            |                  |         |           |
 | ch 07                         |                  |                  |         |           |
-| ch 08 - testing               |                  |                  |         |           |
+| ch 08 - testing               | #done            |                  |         |           |
 | ch 09                         |                  |                  |         |           |
 | ch 10 - Dependability systems |                  |                  |         |           |
 | ch 22                         |                  |                  |         |           |
