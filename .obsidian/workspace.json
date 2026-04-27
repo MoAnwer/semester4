@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Orgnization/lectures/lecture 07 -  The Motherboard and its Components.md",
-                "mode": "preview",
+                "file": "Networks/Fragmentation ch 22.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "lecture 07 -  The Motherboard and its Components"
+              "title": "Fragmentation ch 22"
             }
           }
         ]
@@ -226,8 +226,13 @@
   },
   "active": "78e2a59fcffbc5a7",
   "lastOpenFiles": [
-    "Software Plan.md",
+    "Networks/Fragmentation ch 22.md",
+    "Networks/Headers fields.md",
+    "Computer Orgnization/notes/Control Bus.md",
+    "Untitled.base",
+    "Untitled.md",
     "Computer Orgnization/lectures/lecture 07 -  The Motherboard and its Components.md",
+    "Software Plan.md",
     "Software Engineering/Lectures/Software reuse.md",
     "Software Engineering/Testing exam.md",
     "Pasted image 20260425144300.png",
@@ -260,18 +265,13 @@
     "Computer Orgnization/Sheets content.md",
     "Computer Orgnization/Lecture 2 - Computer Evolution and Performance.md",
     "Computer Orgnization/Lecture 3 - A Top-Level View of Computer Function and Interconnection.md",
-    "Computer Orgnization/notes/Lecture 03  - Top level notes.md",
     "Computer Orgnization/Quizz & Exams",
-    "Software Engineering/notes/الاختبار (Testing) يمكنه إظهار وجود الأخطاء، لكنه لا يمكنه أبداً إظهار غيابها..md",
-    "Software Engineering/notes/Operational Profile.md",
-    "Software Engineering/notes/Fault Tolerance on Aircraft Control Systems.md",
     "AI/notes",
     "Database/Lectures",
     "Database/notes",
     "Tips/DB",
     "Tips",
     "Exams",
-    "Software Engineering/Ch3. Agile SW Dev.pdf",
     "Untitled.canvas"
   ]
 }
