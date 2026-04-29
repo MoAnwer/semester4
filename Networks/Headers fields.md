@@ -75,3 +75,5 @@ the **IPv6 datagram** uses a new header format that divides information into a *
     - **Function:** The IPv6 address of the **ultimate destination**.
 
 Unlike IPv4, the IPv6 base header **does not include fields for fragmentation**; instead, fragmentation information is placed in a separate **fragment extension header** when needed.
+
+

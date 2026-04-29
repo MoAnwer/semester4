@@ -1,7 +1,7 @@
 ---
 tags:
   - coa
-banner: "pixel-banner-images/pexels-markusspiske-129107 (1).jpg"
+banner:
 ---
 ### **The Evolution of Programming Languages & Computer Architecture**
 
