@@ -42,4 +42,4 @@
 | Accidental error | اخطاء عرضية      |
 | Reinstatement    | اعادة الخدمة     |
 | Ripple through   | ينتشر عبر        |
-|                  |                  |
+| synonymous       | مرادف            |
