@@ -125,7 +125,7 @@ DBMS capabilities now extend into specialized fields including:
 
 **Section 1: Introduction and Evolution**
 
-1. In modern DBMS packages, the design is ___________ with a client/server system architecture.
+1. In modern DBMS packages, the design is "______" with a client/server system architecture.
     
 2. ___________ architectures are comprised of thousands of computers that manage data stores.
     
@@ -160,7 +160,7 @@ DBMS capabilities now extend into specialized fields including:
 
 15. ___________ data models describe details of how data is stored in the computer.
 
-16. Physical data models represent information such as record formats and ___________.
+16. ==Physical data models represent information such as record formats and ___________.==
 
 17. ___________ data models combine the description of data with the data values (e.g., XML).
 
@@ -188,7 +188,7 @@ DBMS capabilities now extend into specialized fields including:
 
 27. The goal of the Three-Schema Architecture is to separate ___________ from the physical database.
 
-28. The ___________ schema describes physical storage structures and access paths.
+28. The -_-_-_-_-_-_-_-_--_=_----_ schema describes physical storage structures and access paths.
 
 29. The ___________ schema describes the structure and constraints for the whole database for a community of users.
 
@@ -196,7 +196,7 @@ DBMS capabilities now extend into specialized fields including:
 
 31. ___________ among schema levels are needed to transform requests and data.
 
-32. Data extracted from the internal level is ___________ to match the user’s external view.
+32. ==Data extracted from the internal level is ___________ to match the user’s external view.==
 
 **Section 6: Data Independence**
 
@@ -206,7 +206,7 @@ DBMS capabilities now extend into specialized fields including:
 
 35. ___________ data independence is the capacity to change the conceptual schema without changing external schemas.
 
-36. When schema changes occur, only the ___________ between levels is changed.
+36. ==When schema changes occur, only the ___________ between levels is changed.==
 
 **Section 7: DBMS Languages**
 
@@ -232,11 +232,11 @@ DBMS capabilities now extend into specialized fields including:
 
 46. Casual users interact with the database using an ___________ interface.
 
-47. The ___________ is concerned with rearrangement of operations and elimination of redundancies.
+47. ==The ___________ is concerned with rearrangement of operations and elimination of redundancies.==
 
 48. Access to the disk is controlled primarily by the ___________.
 
-49. The ___________ module schedules disk read/write operations.
+49. ==The (Buffer management) module schedules disk read/write operations.==
 
 50. ___________ and ___________ subsystems are integrated into the runtime processor for transaction management.
 
@@ -347,6 +347,7 @@ DBMS capabilities now extend into specialized fields including:
 
 ---
 
+
 ## lecture 04 
 
 Here is a 50-question comprehensive "Fill the Gaps" exercise based on the provided slides from "Fundamentals of Database Systems" (7th Edition) by Elmasri and Navathe.
@@ -452,9 +453,6 @@ Here is a 50-question comprehensive "Fill the Gaps" exercise based on the provid
 49. A **________** statement without a `WHERE` clause will delete all tuples, making the table empty.
     
 50. In an `UPDATE` statement, the **________** clause specifies the attributes to be modified and their new values.
-    
-
----
 
 ### Answer Key
 
@@ -557,3 +555,628 @@ Here is a 50-question comprehensive "Fill the Gaps" exercise based on the provid
 49. DELETE
     
 50. SET
+
+---
+
+## Chapter 8: The Relational Algebra
+
+This exercise is based on  It covers unary operations, set theory operations, and binary operations like JOIN and DIVISION as presented in the slides.
+
+### Part 1: Fill the Gaps
+
+1. Relational algebra is considered a **________** language because it specifies the steps to take to arrive at a result.
+    
+2. The **________** operation is used to select a subset of tuples from a relation that satisfy a specific condition.
+    
+3. The selection condition is a **________** expression specified on the attributes of the relation.
+    
+4. The **________** operation selects certain columns from the table and discards the rest.
+    
+5. Unlike the SELECT operation, the PROJECT operation eliminates **________** tuples.
+    
+6. The Greek letter **________** ($\sigma$) is used to denote the SELECT operation.
+    
+7. The Greek letter **________** ($\pi$) is used to denote the PROJECT operation.
+    
+8. To rename the attributes of a relation or the relation itself, the **________** ($\rho$) operation is used.
+    
+9. In a sequence of operations, **________** variables can be used to hold intermediate results.
+    
+10. The **________** of a SELECT operation is the number of tuples in the resulting relation divided by the total number of tuples in the original relation.
+    
+11. Operations from set theory require the participating relations to be **________** compatible.
+    
+12. The **________** of two relations $R$ and $S$ includes all tuples that are in $R$ or in $S$ or in both.
+    
+13. The **________** of $R$ and $S$ includes all tuples that are in both $R$ and $S$.
+    
+14. The SET DIFFERENCE operation (denoted by **________**) includes tuples that are in $R$ but not in $S$.
+    
+15. The **________** product (or CROSS PRODUCT) of $R$ and $S$ creates a relation with $n+m$ attributes.
+    
+16. If $R$ has $n_R$ tuples and $S$ has $n_S$ tuples, their Cartesian Product will have **________** tuples.
+    
+17. The **________** operation is a sequence of a Cartesian Product followed by a SELECT operation.
+    
+18. A **________** is a join where the condition involves only the equality (=) operator.
+    
+19. A **________** join is a version of an equijoin that eliminates the redundant second join attribute.
+    
+20. The **________** operation ($R \div S$) is used for queries that involve the phrase "for all" or "every."
+    
+21. Aggregate functions are often denoted in relational algebra using the script letter **________** ($\mathfrak{F}$).
+    
+22. The **________** operation allows for the calculation of functions like SUM, AVERAGE, and COUNT.
+    
+23. An **________** join keeps all tuples in the result, even if they do not have a matching tuple in the other relation.
+    
+24. A **________** join keeps every tuple in the first (left) relation, padding with NULLs if no match exists in the second.
+    
+25. ==The **________** operation is used to combine two relations that are only partially type-compatible.==
+    
+
+### Part 2: Multiple Choice Questions (MCQs)
+
+26. Which operation is considered unary?
+    
+    a) UNION
+    
+    b) JOIN
+    
+    c) PROJECT
+    
+    d) INTERSECTION
+    
+27. The degree of a relation resulting from a PROJECT operation is:
+    
+    a) Equal to the number of tuples
+    
+    b) Equal to the number of attributes in the project list
+    
+    c) Always 1
+    
+    d) Equal to the degree of the original relation
+    
+28. If relation $R$ has 5 tuples and relation $S$ has 10 tuples, how many tuples are in $R \times S$?
+    
+    a) 15
+    
+    b) 5
+    
+    c) 50
+    
+    d) 2
+    
+29. Union, Intersection, and Set Difference are:
+    
+    a) Unary operations
+    
+    b) Binary operations
+    
+    c) Ternary operations
+    
+    d) Logical operations
+    
+30. Which join condition is allowed in a THETA JOIN but NOT in an EQUIJOIN?
+    
+    a) $A = B$
+    
+    b) $A < B$
+    
+    c) $A \neq B$
+    
+    d) Both b and c
+    
+31. The result of $R \cap S$ is the same as:
+    
+    a) $R - (R - S)$
+    
+    b) $S - (S - R)$
+    
+    c) $(R \cup S) - (R - S) - (S - R)$
+    
+    d) All of the above
+    
+32. The "complete" set of relational algebra operations includes:
+    
+    a) SELECT, PROJECT, UNION, SET DIFFERENCE, CARTESIAN PRODUCT
+    
+    b) SELECT, PROJECT, JOIN, DIVISION
+    
+    c) UNION, INTERSECTION, JOIN
+    
+    d) RENAME, JOIN, DIVISION
+    
+33. In the expression $\pi_{LNAME, FNAME, SALARY}(\sigma_{DNO=5}(EMPLOYEE))$, which operation is performed first?
+    
+    a) Project
+    
+    b) Select
+    
+    c) Rename
+    
+    d) It happens simultaneously
+    
+34. A relation where every tuple is unique is a:
+    
+    a) Multiset
+    
+    b) Set
+    
+    c) Bag
+    
+    d) List
+    
+35. The operation $R \bowtie S$ where no condition is specified usually implies:
+    
+    a) A Cartesian Product
+    
+    b) A Natural Join
+    
+    c) A Theta Join
+    
+    d) A Division
+    
+36. Which operation is used to find the average salary of employees per department?
+    
+    a) SELECT
+    
+    b) AGGREGATE FUNCTION ($\mathfrak{F}$)
+    
+    c) PROJECT
+    
+    d) JOIN
+    
+37. If you want to find employees who work on ALL projects, you use:
+    
+    a) JOIN
+    
+    b) UNION
+    
+    c) DIVISION
+    
+    d) INTERSECTION
+    
+38. Type compatibility (or Union compatibility) requires that:
+    
+    a) Both relations have the same number of attributes
+    
+    b) Corresponding attributes have the same domain
+    
+    c) Both a and b
+    
+    d) The relations have the same name
+    
+39. The result of a LEFT OUTER JOIN between $R$ and $S$ contains:
+    
+    a) Only matching tuples
+    
+    b) All tuples from $R$
+    
+    c) All tuples from $S$
+    
+    d) All tuples from both $R$ and $S$
+    
+40. Which operation effectively represents the "AND" logical operator in set theory?
+    
+    a) UNION
+    
+    b) INTERSECTION
+    
+    c) SET DIFFERENCE
+    
+    d) CARTESIAN PRODUCT
+    
+41. Which of the following is NOT an aggregate function?
+    
+    a) MAX
+    
+    b) COUNT
+    
+    c) SELECT
+    
+    d) SUM
+    
+42. Recursive closure operations (like finding all subordinates of a manager at all levels) are:
+    
+    a) Standard in basic relational algebra
+    
+    b) Not possible with basic relational algebra
+    
+    c) Performed by the PROJECT operation
+    
+    d) Performed by the UNION operation
+    
+43. An OUTER UNION is specifically designed to handle:
+    
+    a) Relations with identical schemas
+    
+    b) Partially compatible relations
+    
+    c) Relations with no common attributes
+    
+    d) Joining more than three tables
+    
+44. The number of attributes in the result of $R(A, B, C) \bowtie_{C=D} S(D, E)$ is:
+    
+    a) 3
+    
+    b) 4
+    
+    c) 5
+    
+    d) 2
+    
+45. In a NATURAL JOIN, if the two relations have no common attribute names, the result is:
+    
+    a) An empty relation
+    
+    ==b) A Cartesian Product==
+    
+    e) An error
+    
+    d) A Theta Join
+    
+46. Which operation is commutative ($R \cup S = S \cup R$)?
+    
+    a) UNION
+    
+    b) INTERSECTION
+    
+    c) CARTESIAN PRODUCT
+    
+    d) All of the above
+    
+47. Set Difference ($R - S$) is:
+    
+    a) Commutative
+    
+    b) Not commutative
+    
+    c) Associative
+    
+    d) Always empty
+    
+48. The SELECT operation is:
+    
+    a) Commutative
+    
+    b) Not commutative
+    
+    c) Only works on primary keys
+    
+    d) Used to combine tables
+    
+49. What happens to the degree of a relation during a PROJECT operation?
+    
+    a) It increases
+    
+    b) It decreases or stays the same
+    
+    c) It always stays the same
+    
+    d) It doubles
+    
+50. The RENAME operation is used primarily to:
+    
+    a) Delete data
+    
+    b) Change attribute names for consistency in joins or intermediate results
+    
+    c) Sort the table
+    
+    d) Define primary keys
+    
+
+---
+
+### Answer Key
+
+1. Procedural
+    
+2. SELECT
+    
+3. Boolean
+    
+4. PROJECT
+    
+5. Duplicate
+    
+6. Sigma
+    
+7. Pi
+    
+8. RENAME
+    
+9. Intermediate (or Assignment)
+    
+10. Selectivity
+    
+11. Union (or Type)
+    
+12. UNION
+    
+13. INTERSECTION
+    
+14. Minus (-)
+    
+15. CARTESIAN
+    
+16. $n_R \times n_S$
+    
+17. JOIN
+    
+18. EQUIJOIN
+    
+19. NATURAL
+    
+20. DIVISION
+    
+21. F
+    
+22. AGGREGATE (or Grouping)
+    
+23. OUTER
+    
+24. LEFT OUTER
+    
+25. OUTER UNION
+    
+26. c
+    
+27. b
+    
+28. c
+    
+29. b
+    
+30. d
+    
+31. d
+    
+32. a
+    
+33. b
+    
+34. b
+    
+35. b
+    
+36. b
+    
+37. c
+    
+38. c
+    
+39. b
+    
+40. b
+    
+41. c
+    
+42. b
+    
+43. b
+    
+44. c
+    
+45. b
+    
+46. d
+    
+47. b
+    
+48. a
+    
+49. b
+    
+50. b
+----
+
+## Lecture 07 
+
+### Chapter 7: Advanced SQL - Knowledge Check
+
+1. SQL uses a **________** logic for comparisons involving NULL, consisting of TRUE, FALSE, and UNKNOWN.
+    
+2. An individual NULL value is considered to be **________** from every other NULL value.
+    
+3. The comparison `Address IS NULL` returns TRUE if the address attribute is **________**.
+    
+4. In SQL, **________** queries are complete SELECT-FROM-WHERE blocks within the WHERE clause of another query.
+    
+5. The comparison operator **________** checks whether a value is one of the elements in a set or the result of a subquery.
+    
+6. A **________** subquery is one where a value from the outer query is used in the inner subquery.
+    
+7. The **________** function is used to check whether the result of a correlated nested query is empty or not.
+    
+8. To find if a query result contains at least one record, you use the **________** condition.
+    
+9. SQL’s **________** operator is used to compare a single value with all values in a set or list.
+    
+10. The **________** operator returns TRUE if a value is greater than at least one value in a set.
+    
+11. To ensure there are no duplicate tuples in a nested query, the **________** condition can be used.
+    
+12. The keyword **________** in the FROM clause allows for different types of table joins, such as INNER or OUTER.
+    
+13. A **________** JOIN keeps all tuples from the first table and fills the second table's attributes with NULLs if no match exists.
+    
+14. A **________** JOIN keeps all tuples from both tables, padding with NULLs where matches are missing.
+    
+15. Aggregate functions include COUNT, SUM, MAX, MIN, and **________**.
+    
+16. The **________** clause is used to partition a relation into subsets based on attribute values for aggregate calculations.
+    
+17. To provide a condition on a summary (aggregate) value, the **________** clause must be used.
+    
+18. The **________** function can be used with a single attribute to count the number of non-null values in that column.
+    
+19. If you want to count every row in a table, including those with NULLs, use **________**.
+    
+20. In a SELECT statement with GROUP BY, the attributes in the SELECT list must also appear in the **________** clause (unless they are aggregate functions).
+    
+21. The **________** keyword is used to name a subquery in the FROM clause, creating a "table expression."
+    
+22. Recursive queries in SQL often use the **________** clause to define a temporary result set.
+    
+23. The **________** statement is used to create a virtual table that does not physically exist in the database.
+    
+24. A view is considered **________** if it is computed each time it is referenced.
+    
+25. A **________** view is physically stored for efficiency but must be updated when the base tables change.
+    
+26. To remove a view from the database, use the **________** command.
+    
+27. A view is generally **________** only if it is defined on a single base table without aggregate functions.
+    
+28. The **________** command is used to add or drop columns in an existing table.
+    
+29. To remove an entire table and all its data from the schema, use **________**.
+    
+30. The **________** option in a DROP statement removes all dependent objects like views and constraints.
+    
+31. The **________** option in a DROP statement prevents the drop if any other objects depend on that table.
+    
+32. **________** are used to specify "Active" rules that the DBMS should automatically execute when certain events occur.
+    
+33. A trigger typically follows the **________** model (Event-Condition-Action).
+    
+34. In a trigger, the **________** defines when the rule should be triggered (e.g., BEFORE/AFTER INSERT).
+    
+35. The **________** in a trigger is a Boolean expression that determines if the action should run.
+    
+36. The **________** in a trigger is the procedure or SQL code to be executed.
+    
+37. **________** level triggers execute once for each row affected by an SQL statement.
+    
+38. **________** level triggers execute once for the entire SQL statement, regardless of how many rows are affected.
+    
+39. The keyword **________** is used in triggers to refer to the data as it was before the update.
+    
+40. The keyword **________** is used in triggers to refer to the data after the update.
+    
+41. **________** are declarative constraints that must hold true for all states of the database (e.g., `CHECK` at a schema level).
+    
+42. To modify a column's default value, use the `ALTER TABLE` command with the **________** clause.
+    
+43. The syntax `NATURAL JOIN` automatically joins tables based on columns with **________**.
+    
+44. If a subquery is used in the SELECT clause, it is often called a **________** subquery.
+    
+45. In the three-valued logic, `TRUE AND UNKNOWN` results in **________**.
+    
+46. In the three-valued logic, `FALSE OR UNKNOWN` results in **________**.
+    
+47. The keyword **________** can be used to provide descriptive names to results of aggregate functions in the SELECT list.
+    
+48. A **________** is an alternative name for a table or view used to shorten queries.
+    
+49. The **________** clause in a trigger specifies that it is a row-level trigger.
+    
+50. SQL triggers were officially incorporated into the **________** standard.
+    
+
+
+### Answer Key
+
+1. Three-valued
+    
+2. Different
+    
+3. Null
+    
+4. Nested
+    
+5. IN
+    
+6. Correlated
+    
+7. EXISTS
+    
+8. EXISTS
+    
+9. ALL
+    
+10. ANY (or SOME)
+    
+11. UNIQUE
+    
+12. JOIN
+    
+13. LEFT OUTER
+    
+14. FULL OUTER
+    
+15. AVG
+    
+16. GROUP BY
+    
+17. HAVING
+    
+18. COUNT
+    
+19. COUNT(*)
+    
+20. GROUP BY
+    
+21. AS
+    
+22. WITH
+    
+23. CREATE VIEW
+    
+24. Virtual
+    
+25. Materialized
+    
+26. DROP VIEW
+    
+27. Updatable
+    
+28. ALTER TABLE
+    
+29. DROP TABLE
+    
+30. CASCADE
+    
+31. RESTRICT
+    
+32. Triggers
+    
+33. ECA
+    
+34. Event
+    
+35. Condition
+    
+36. Action
+    
+37. Row
+    
+38. Statement
+    
+39. OLD
+    
+40. NEW
+    
+41. Assertions
+    
+42. SET DEFAULT
+    
+43. Same names
+    
+44. Scalar
+    
+45. UNKNOWN
+    
+46. UNKNOWN
+    
+47. AS
+    
+48. Alias (or Synonym)
+    
+49. FOR EACH ROW
+    
+50. SQL-99 (or SQL-3)
