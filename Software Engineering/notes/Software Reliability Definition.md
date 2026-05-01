@@ -1,6 +1,7 @@
 ---
 tags:
   - software
+  - reliability
 ---
 
 تُعد **اعتمادية البرمجيات (Software Reliability)** أحد الأبعاد الجوهرية لموثوقية النظام، ==وهي تعبر عن== 
