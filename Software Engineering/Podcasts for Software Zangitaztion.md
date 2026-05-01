@@ -1,3 +1,6 @@
+---
+banner: pixel-banner-images/Best-podcast-microphones.jpg
+---
 دي مجموعة بودكاستات بالعربي من المرجع حق البرمجيات، بتشرح بطريقة ظابطة و سهلة عن طريق سناريوهات ممكن تساعدكم
 
 ## CH 02 Software process
