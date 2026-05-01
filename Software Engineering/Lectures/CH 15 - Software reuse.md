@@ -103,7 +103,7 @@ Beyond WAFs, other framework categories exist:
 
 ## Software Product Lines
 
-Software product lines are an effective reuse approach when supporting multiple similar but distinct systems.
+Software product lines are an ==effective reuse approach when supporting multiple similar but distinct systems.==
 
 ### Definition and Benefits
 
@@ -133,8 +133,6 @@ A base application in a product line typically includes:
 |**Scope**|Generally provide general support (e.g., for web applications).|Embed detailed domain and platform information (e.g., health record management for web).|
 |**Hardware Interaction**|Typically software-oriented; usually do not include hardware interaction components.|Often control applications for equipment, requiring hardware interfacing support.|
 |**Ownership**|Can be developed by external parties.|Typically owned by a single organization, forming a family of related applications.|
-
-**Note:** The table above is for illustrative purposes to highlight differences. The study guide itself avoids tables as per instructions. The comparison points are integrated into the text.
 
 ### Product Line Development Process
 
