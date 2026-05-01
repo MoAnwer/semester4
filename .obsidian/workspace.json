@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Engineering/Titles/Testing - Fundamental Concepts.md",
+                "file": "Software Engineering/Podcasts for Software Zangitaztion.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Testing - Fundamental Concepts"
+              "title": "Podcasts for Software Zangitaztion"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "38085d8cd672b1c7",
@@ -213,11 +214,16 @@
   },
   "active": "400790d68dbc9c66",
   "lastOpenFiles": [
-    "Software Engineering/notes/Although there has been a demarcation betweendevelopment and evolution (maintenance) this isincreasingly irrelevant as fewer and fewer systems arecompletely new.md",
+    "Untitled.md",
+    "Software Engineering/Lectures/CH 15 - Software reuse.md",
+    "Software Engineering/Lectures/Lecture 06 - Architectural Design in Software Engineering.md",
+    "Software Engineering/exam_prompts/Prompt 1.md",
+    "Tasks/2026-04-31.md",
+    "Software Engineering/Podcasts for Software Zangitaztion.md",
     "Software Engineering/Titles/Testing - Fundamental Concepts.md",
+    "Software Engineering/notes/Although there has been a demarcation betweendevelopment and evolution (maintenance) this isincreasingly irrelevant as fewer and fewer systems arecompletely new.md",
     "Software Engineering/Titles",
     "English words.md",
-    "Tasks/2026-04-31.md",
     "Networks/imgs/Pasted image 20260425121338.png",
     "Tasks/2026-04-30.md",
     "Tasks/2026-04-24.md",
@@ -231,10 +237,8 @@
     "Networks/Fragmentation ch 22.md",
     "Computer Orgnization/notes/Control Bus.md",
     "Untitled.base",
-    "Untitled.md",
     "Computer Orgnization/lectures/lecture 07 -  The Motherboard and its Components.md",
     "Software Plan.md",
-    "Software Engineering/Lectures/Software reuse.md",
     "Software Engineering/Testing exam.md",
     "Pasted image 20260425144300.png",
     "Networks/Networks Exam 3  (my wrong answers).md",
@@ -249,9 +253,6 @@
     "Networks/imgs",
     "Networks/notes/Network renumbering.md",
     "Tasks/2026-04-08.md",
-    "Networks/notes/NAT notes.md",
-    "Tasks/2026-04-20.md",
-    "My Dash.md",
     "Networks/notes",
     "Computer Orgnization/Quizz & Exams",
     "AI/notes",
