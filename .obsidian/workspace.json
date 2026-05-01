@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "anticipation",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -73,21 +73,8 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
-          },
-          {
-            "id": "0a5bbf650d1d2b4c",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Networks/imgs/Pasted image 20260425121338.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260425121338"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -224,10 +211,11 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "cf9f79c264da3019",
+  "active": "b439402f3ebe78a4",
   "lastOpenFiles": [
-    "Tasks/2026-04-30.md",
+    "Networks/imgs/Pasted image 20260425121338.png",
     "Tasks/2026-04-31.md",
+    "Tasks/2026-04-30.md",
     "Tasks/2026-04-24.md",
     "Software Engineering/notes/Generalization.md",
     "Software Engineering/notes/Representation vs Abstraction.md",
@@ -264,7 +252,6 @@
     "My Dash.md",
     "Networks/notes",
     "Networks/Untitled.md",
-    "Computer Orgnization/notes/Pipelining important.md",
     "Computer Orgnization/Quizz & Exams",
     "AI/notes",
     "Database/Lectures",
