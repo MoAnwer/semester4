@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Engineering/notes/Untitled.md",
+                "file": "Software Engineering/notes/Although there has been a demarcation betweendevelopment and evolution (maintenance) this isincreasingly irrelevant as fewer and fewer systems arecompletely new.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Although there has been a demarcation betweendevelopment and evolution (maintenance) this isincreasingly irrelevant as fewer and fewer systems arecompletely new"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "38085d8cd672b1c7",
@@ -211,10 +212,10 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "400790d68dbc9c66",
+  "active": "53d69333c7b854eb",
   "lastOpenFiles": [
     "English words.md",
-    "Software Engineering/notes/Untitled.md",
+    "Software Engineering/notes/Although there has been a demarcation betweendevelopment and evolution (maintenance) this isincreasingly irrelevant as fewer and fewer systems arecompletely new.md",
     "Tasks/2026-04-31.md",
     "Networks/imgs/Pasted image 20260425121338.png",
     "Tasks/2026-04-30.md",
