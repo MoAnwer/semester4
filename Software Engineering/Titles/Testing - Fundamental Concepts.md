@@ -435,3 +435,50 @@
 99. **Test Plan (خطة الاختبار):** وثيقة تصف استراتيجية الاختبار والموارد والجدول الزمني.
     
 100. **Quality Plan (خطة الجودة):** وثيقة تحدد معايير الجودة والعمليات التي سيتم اتباعها في المشروع.
+
+---
+
+# Testing types
+
+### 1. Main Stages of Testing
+
+Commercial software systems typically go through three primary stages of testing to ensure they are fit for purpose:
+
+- **Development Testing:** Testing conducted during the development process to discover bugs and defects, usually performed by the system designers and programmers.
+- **Release Testing:** Performed by a separate team on a complete version of the system before it is released to users to check that it meets stakeholder requirements.
+- **User Testing:** A stage where users or potential customers test the system in their own environment to see if it meets their needs and expectations.
+
+### 2. Levels of Development Testing
+
+Development testing is subdivided into three distinct levels:
+
+- **Unit Testing:** Focuses on testing individual program units, such as functions or object classes, to ensure their isolated functionality is correct.
+- **Component Testing:** Involves integrating several units to create composite components, focusing on testing the component interfaces.
+- **System Testing:** Involves integrating some or all system components to test the system as a whole, focusing on component interactions and emergent behavior.
+
+### 3. Types of User Testing
+
+User testing is often categorized into three types based on the release phase and the nature of the users involved:
+
+- **Alpha Testing:** A selected group of users works closely with the development team to test early releases of the software.
+- **Beta Testing:** An early release is made available to a larger group of users to allow them to experiment and report problems before a general release.
+- **Acceptance Testing:** A formal process where customers test a system using their own data to decide if it is ready to be accepted and deployed in their environment.
+
+### 4. Testing Approaches and Techniques
+
+Various techniques are used to design and execute tests effectively:
+
+- **Validation Testing:** Intended to demonstrate that the software meets its specified requirements.
+- **Defect Testing:** Specifically designed to expose incorrect behavior or non-conformance with specifications.
+- **Black-box Testing:** A technique where tests are derived from the system specification without knowledge of the internal source code.
+- **White-box Testing:** An approach where tests are based on knowledge of the program’s internal structure and source code.
+- **Partition Testing (Equivalence Partitioning):** Identifying groups of inputs that should be processed similarly and choosing test cases from the midpoints and boundaries of these groups.
+- **Guideline-based Testing:** Using guidelines derived from previous experience of common programmer mistakes to select effective test cases.
+- **Path Testing:** A strategy aimed at exercising every independent execution path through a component to ensure all statements are executed.
+- **Regression Testing:** Re-running previous tests after changes have been made to the system to check that no new bugs have been introduced.
+- **Test-driven Development (TDD):** A process where executable tests are written before the code itself, and the code is refactored until it passes all tests.
+- **Requirements-based Testing:** A systematic approach where tests are derived for each specific requirement in the specification.
+- **Scenario Testing:** Designing tests based on typical stories or scenarios of how the system will be used in practice.
+- **Performance Testing:** Specifically testing emergent properties like response time and reliability under increasing loads.
+- **Stress Testing:** Making demands on the system that are outside design limits to test its behavior during failure or overload.
+- **Statistical Testing:** Used to estimate software reliability by testing the system with data that matches an "operational profile" reflecting its expected use.
