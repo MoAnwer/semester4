@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Engineering/notes/Risk management.md",
+                "file": "Computer Orgnization/notes/Lecture 03  - Top level notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Risk management"
+              "title": "Lecture 03  - Top level notes"
             }
           }
         ]
@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -214,9 +213,14 @@
   },
   "active": "400790d68dbc9c66",
   "lastOpenFiles": [
+    "Computer Orgnization/notes/Branch Prediction.md",
+    "Computer Orgnization/notes/Lecture 03  - Top level notes.md",
+    "2026-05-02.md",
+    "Software Engineering/notes/Teamwork.md",
+    "Software Engineering/notes/Risk planning.md",
+    "Software Engineering/notes/Risk management.md",
     "Software Engineering/notes/Risk identification.md",
     "Software Engineering/notes/Risk analysis.md",
-    "Software Engineering/notes/Teamwork.md",
     "Software Engineering/notes/Holistic Perspective.md",
     "Software Engineering/notes/Generalization.md",
     "Software Engineering/notes/Fault detection and correction.md",
@@ -234,12 +238,7 @@
     "Software Engineering/notes/Self monitoring Architecture.md",
     "Software Engineering/notes/Operational Profile.md",
     "Software Engineering/notes/Fault Tolerance on Aircraft Control Systems.md",
-    "Software Engineering/notes/Risk planning.md",
     "Software Engineering/Titles/Testing - Fundamental Concepts.md",
-    "Software Engineering/notes/Error Tolerance.md",
-    "Software Engineering/notes/Fault-Error-Failure Model.md",
-    "Software Engineering/notes/Diversity and dependability.md",
-    "Software Engineering/notes/Mega-systems Sociotechnical systems.md",
     "Software Engineering/Ch4 Req Eng.pdf",
     "pixel-banner-images/Best-podcast-microphones.jpg",
     "Software Engineering/Titles",
