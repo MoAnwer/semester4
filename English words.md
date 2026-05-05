@@ -47,4 +47,5 @@
 | supplemental        | اضافي / تكميلية  |
 | induce              | حث / حمل         |
 | contrast            | على العكس        |
-|                     |                  |
+| inadequate          | ناقص             |
+| stated              | ذكر / منصوص      |
