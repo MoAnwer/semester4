@@ -44,3 +44,7 @@
 | Ripple through      | ينتشر عبر        |
 | synonymous          | مرادف            |
 | Change anticipation | توقع التغيير     |
+| supplemental        | اضافي / تكميلية  |
+| induce              | حث / حمل         |
+| contrast            | على العكس        |
+|                     |                  |
