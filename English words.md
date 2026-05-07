@@ -58,3 +58,5 @@
 | crystallize         | بلورة             |
 | emphasize           | تأكيد على         |
 | fits                | يلائم / يناسب     |
+| varies              | يتفاوت            |
+| dealt               | يتعامل            |
