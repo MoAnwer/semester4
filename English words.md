@@ -60,3 +60,6 @@
 | fits                | يلائم / يناسب     |
 | varies              | يتفاوت            |
 | dealt               | يتعامل            |
+| notions             | افكار / مفاهيم    |
+| constituents        | مقومات            |
+| obligations         | التزامات          |
