@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networks/CH 11.md",
+                "file": "2026-05-15.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CH 11"
+              "title": "2026-05-15"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "38085d8cd672b1c7",
@@ -214,6 +213,8 @@
   },
   "active": "4b6ab75da8c3b716",
   "lastOpenFiles": [
+    "Networks/CH 11.md",
+    "2026-05-15.md",
     "Networks/notes/Network renumbering.md",
     "Networks/notes/NAT notes.md",
     "English words.md",
@@ -246,8 +247,6 @@
     "بوستات (copy)/تثبيت_PHP_في_ابونتو.md",
     "بوستات (copy)/افكار_بحثية_في_مجال_علوم_الحاسوب.md",
     "بوستات (copy)/مؤشرات_رئيسية_لقياس_أداء_نجاح_مشروعك_-KPIs-.md",
-    "بوستات (copy)/Graphs.md",
-    "بوستات (copy)/تيتيهيههي.md",
     "بوستات (copy)/بدون عنوان 1",
     "بوستات (copy)/Software engineering",
     "pixel-banner-images/Best-podcast-microphones.jpg",
